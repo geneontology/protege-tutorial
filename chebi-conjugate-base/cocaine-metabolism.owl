@@ -1,15 +1,30 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism.owl#"
-     xml:base="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism.owl"
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY oboInOwl "http://www.geneontology.org/formats/oboInOwl#" >
+    <!ENTITY cocaine-metabolism "http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#" >
+]>
+
+
+<rdf:RDF xmlns="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism.owl#"
+     xml:base="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism.owl"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:cocaine-metabolism="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#"
+     xmlns:cocaine-metabolism="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism.owl">
-        <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
+    <owl:Ontology rdf:about="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism.owl">
+        <oboInOwl:hasOBOFormatVersion rdf:datatype="&xsd;string">1.2</oboInOwl:hasOBOFormatVersion>
+        <owl:imports rdf:resource="&obo;ro.owl"/>
+        <owl:imports rdf:resource="&obo;go/extensions/bio-chebi.owl"/>
     </owl:Ontology>
     
 
@@ -22,92 +37,92 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_generic">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Generic GO slim</rdfs:comment>
-        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    <owl:AnnotationProperty rdf:about="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_generic">
+        <rdfs:comment rdf:datatype="&xsd;string">Generic GO slim</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&oboInOwl;SubsetProperty"/>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in_subset</rdfs:label>
+    <owl:AnnotationProperty rdf:about="&oboInOwl;inSubset">
+        <rdfs:label rdf:datatype="&xsd;string">in_subset</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasScope">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_scope</rdfs:label>
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasScope">
+        <rdfs:label rdf:datatype="&xsd;string">has_scope</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_format_version</rdfs:label>
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasOBOFormatVersion">
+        <rdfs:label rdf:datatype="&xsd;string">has_obo_format_version</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000115">
+        <rdfs:label rdf:datatype="&xsd;string">definition</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database_cross_reference</rdfs:label>
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasDbXref">
+        <rdfs:label rdf:datatype="&xsd;string">database_cross_reference</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_alternative_id</rdfs:label>
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasAlternativeId">
+        <rdfs:label rdf:datatype="&xsd;string">has_alternative_id</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasOBONamespace">
+        <rdfs:label rdf:datatype="&xsd;string">has_obo_namespace</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prokaryotic GO subset</rdfs:comment>
-        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    <owl:AnnotationProperty rdf:about="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok">
+        <rdfs:comment rdf:datatype="&xsd;string">Prokaryotic GO subset</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&oboInOwl;SubsetProperty"/>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_plant">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant GO slim</rdfs:comment>
-        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    <owl:AnnotationProperty rdf:about="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_plant">
+        <rdfs:comment rdf:datatype="&xsd;string">Plant GO slim</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&oboInOwl;SubsetProperty"/>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#SubsetProperty">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subset_property</rdfs:label>
+    <owl:AnnotationProperty rdf:about="&oboInOwl;SubsetProperty">
+        <rdfs:label rdf:datatype="&xsd;string">subset_property</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">synonym_type_property</rdfs:label>
+    <owl:AnnotationProperty rdf:about="&oboInOwl;id"/>
+    <owl:AnnotationProperty rdf:about="&oboInOwl;SynonymTypeProperty">
+        <rdfs:label rdf:datatype="&xsd;string">synonym_type_property</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_exact_synonym</rdfs:label>
+    <owl:AnnotationProperty rdf:about="&rdfs;label"/>
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasExactSynonym">
+        <rdfs:label rdf:datatype="&xsd;string">has_exact_synonym</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#high_level_annotation_qc">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High-level terms not to be used for direct annotation</rdfs:comment>
-        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    <owl:AnnotationProperty rdf:about="&rdfs;comment"/>
+    <owl:AnnotationProperty rdf:about="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#high_level_annotation_qc">
+        <rdfs:comment rdf:datatype="&xsd;string">High-level terms not to be used for direct annotation</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&oboInOwl;SubsetProperty"/>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_related_synonym</rdfs:label>
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasRelatedSynonym">
+        <rdfs:label rdf:datatype="&xsd;string">has_related_synonym</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_aspergillus">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aspergillus GO slim</rdfs:comment>
-        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    <owl:AnnotationProperty rdf:about="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_aspergillus">
+        <rdfs:comment rdf:datatype="&xsd;string">Aspergillus GO slim</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&oboInOwl;SubsetProperty"/>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#mf_needs_review">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Catalytic activity terms in need of attention</rdfs:comment>
-        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    <owl:AnnotationProperty rdf:about="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_pombe">
+        <rdfs:comment rdf:datatype="&xsd;string">Fission yeast GO slim</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&oboInOwl;SubsetProperty"/>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_pombe">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fission yeast GO slim</rdfs:comment>
-        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    <owl:AnnotationProperty rdf:about="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#mf_needs_review">
+        <rdfs:comment rdf:datatype="&xsd;string">Catalytic activity terms in need of attention</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&oboInOwl;SubsetProperty"/>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#systematic_synonym">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Systematic synonym</rdfs:label>
-        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
-        <oboInOwl:hasScope rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    <owl:AnnotationProperty rdf:about="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#systematic_synonym">
+        <rdfs:label rdf:datatype="&xsd;string">Systematic synonym</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&oboInOwl;SynonymTypeProperty"/>
+        <oboInOwl:hasScope rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_yeast">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yeast GO slim</rdfs:comment>
-        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    <owl:AnnotationProperty rdf:about="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_pir">
+        <rdfs:comment rdf:datatype="&xsd;string">PIR GO slim</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&oboInOwl;SubsetProperty"/>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_pir">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PIR GO slim</rdfs:comment>
-        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    <owl:AnnotationProperty rdf:about="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_yeast">
+        <rdfs:comment rdf:datatype="&xsd;string">Yeast GO slim</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&oboInOwl;SubsetProperty"/>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_narrow_synonym</rdfs:label>
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasNarrowSynonym">
+        <rdfs:label rdf:datatype="&xsd;string">has_narrow_synonym</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_candida">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Candida GO slim</rdfs:comment>
-        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    <owl:AnnotationProperty rdf:about="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_candida">
+        <rdfs:comment rdf:datatype="&xsd;string">Candida GO slim</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&oboInOwl;SubsetProperty"/>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_broad_synonym</rdfs:label>
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasBroadSynonym">
+        <rdfs:label rdf:datatype="&xsd;string">has_broad_synonym</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -136,648 +151,681 @@
 
     <!-- http://purl.obolibrary.org/obo/GO_0006807 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006807">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nitrogen compound metabolic process</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008152"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0006807</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Note that amino acid and derivative metabolism should not be annotated here. Instead use the &#39;amino acid and derivative metabolism&#39; node.</rdfs:comment>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways involving organic or inorganic compounds that contain nitrogen, including (but not limited to) nitrogen fixation, nitrification, denitrification, assimilatory/dissimilatory nitrate reduction and the interconversion of nitrogenous organic matter and ammonium.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nitrogen compound metabolism</oboInOwl:hasExactSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_pir"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
+    <owl:Class rdf:about="&obo;GO_0006807">
+        <rdfs:label rdf:datatype="&xsd;string">nitrogen compound metabolic process</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;GO_0008152"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CHEBI_51143"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0008152"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0006807</oboInOwl:id>
+        <rdfs:comment rdf:datatype="&xsd;string">Note that amino acid and derivative metabolism should not be annotated here. Instead use the &#39;amino acid and derivative metabolism&#39; node.</rdfs:comment>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways involving organic or inorganic compounds that contain nitrogen, including (but not limited to) nitrogen fixation, nitrification, denitrification, assimilatory/dissimilatory nitrate reduction and the interconversion of nitrogenous organic matter and ammonium.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">nitrogen compound metabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:51143</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:go_curators</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:jl</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0198506732</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways involving organic or inorganic compounds that contain nitrogen, including (but not limited to) nitrogen fixation, nitrification, denitrification, assimilatory/dissimilatory nitrate reduction and the interconversion of nitrogenous organic matter and ammonium.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0006807"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CHEBI:51143</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GOC:go_curators</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GOC:jl</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ISBN:0198506732</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">The chemical reactions and pathways involving organic or inorganic compounds that contain nitrogen, including (but not limited to) nitrogen fixation, nitrification, denitrification, assimilatory/dissimilatory nitrate reduction and the interconversion of nitrogenous organic matter and ammonium.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;GO_0006807"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
     </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/GO_0008150 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008150">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any process specifically pertinent to the functioning of integrated living units: cells, tissues, organs, and organisms. A process is a collection of molecular events with a defined beginning and end.</obo:IAO_0000115>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0000004</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0007582</oboInOwl:hasAlternativeId>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0008150</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Note that, in addition to forming the root of the biological process ontology, this term is recommended for use for the annotation of gene products whose biological process is unknown. Note that when this term is used for annotation, it indicates that no information was available about the biological process of the gene product annotated as of the date the annotation was made; the evidence code ND, no data, is used to indicate this.</rdfs:comment>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Biological_process</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological process</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological process unknown</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">physiological process</oboInOwl:hasExactSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_aspergillus"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_candida"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_generic"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_pir"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_plant"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_pombe"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_yeast"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
+    <owl:Class rdf:about="&obo;GO_0008150">
+        <rdfs:label rdf:datatype="&xsd;string">biological_process</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any process specifically pertinent to the functioning of integrated living units: cells, tissues, organs, and organisms. A process is a collection of molecular events with a defined beginning and end.</obo:IAO_0000115>
+        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">GO:0000004</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">GO:0007582</oboInOwl:hasAlternativeId>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0008150</oboInOwl:id>
+        <rdfs:comment rdf:datatype="&xsd;string">Note that, in addition to forming the root of the biological process ontology, this term is recommended for use for the annotation of gene products whose biological process is unknown. Note that when this term is used for annotation, it indicates that no information was available about the biological process of the gene product annotated as of the date the annotation was made; the evidence code ND, no data, is used to indicate this.</rdfs:comment>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Wikipedia:Biological_process</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">biological process</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="&xsd;string">biological process unknown</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">physiological process</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_aspergillus"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_candida"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_plant"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_pombe"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_yeast"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any process specifically pertinent to the functioning of integrated living units: cells, tissues, organs, and organisms. A process is a collection of molecular events with a defined beginning and end.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:go_curators</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:isa_complete</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Any process specifically pertinent to the functioning of integrated living units: cells, tissues, organs, and organisms. A process is a collection of molecular events with a defined beginning and end.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GOC:go_curators</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GOC:isa_complete</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="&obo;GO_0008150"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
     </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/GO_0008152 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008152">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metabolic process</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0008152</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Note that metabolic processes do not include single functions or processes such as protein-protein interactions, protein-nucleic acids, nor receptor-ligand interactions.</rdfs:comment>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways, including anabolism and catabolism, by which living organisms transform chemical substances. Metabolic processes typically transform small molecules, but also include macromolecular processes such as DNA repair and replication, and protein synthesis and degradation.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Metabolism</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metabolic process resulting in cell growth</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metabolism</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metabolism resulting in cell growth</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_pir"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_plant"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
+    <owl:Class rdf:about="&obo;GO_0008152">
+        <rdfs:label rdf:datatype="&xsd;string">metabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0008150"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0008152</oboInOwl:id>
+        <rdfs:comment rdf:datatype="&xsd;string">Note that metabolic processes do not include single functions or processes such as protein-protein interactions, protein-nucleic acids, nor receptor-ligand interactions.</rdfs:comment>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways, including anabolism and catabolism, by which living organisms transform chemical substances. Metabolic processes typically transform small molecules, but also include macromolecular processes such as DNA repair and replication, and protein synthesis and degradation.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Wikipedia:Metabolism</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="&xsd;string">metabolic process resulting in cell growth</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">metabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="&xsd;string">metabolism resulting in cell growth</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_plant"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:go_curators</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0198547684</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways, including anabolism and catabolism, by which living organisms transform chemical substances. Metabolic processes typically transform small molecules, but also include macromolecular processes such as DNA repair and replication, and protein synthesis and degradation.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0008152"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GOC:go_curators</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ISBN:0198547684</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">The chemical reactions and pathways, including anabolism and catabolism, by which living organisms transform chemical substances. Metabolic processes typically transform small molecules, but also include macromolecular processes such as DNA repair and replication, and protein synthesis and degradation.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;GO_0008152"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
     </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/GO_0009056 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009056">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">catabolic process</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008152"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0009056</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways resulting in the breakdown of substances, including the breakdown of carbon compounds with the liberation of energy for use by the cell or organism.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Catabolism</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">breakdown</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">catabolism</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">degradation</oboInOwl:hasExactSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_generic"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_plant"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
+    <owl:Class rdf:about="&obo;GO_0009056">
+        <rdfs:label rdf:datatype="&xsd;string">catabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0008152"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0009056</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the breakdown of substances, including the breakdown of carbon compounds with the liberation of energy for use by the cell or organism.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Wikipedia:Catabolism</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">breakdown</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">catabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">degradation</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_plant"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0198547684</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways resulting in the breakdown of substances, including the breakdown of carbon compounds with the liberation of energy for use by the cell or organism.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0009056"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ISBN:0198547684</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the breakdown of substances, including the breakdown of carbon compounds with the liberation of energy for use by the cell or organism.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;GO_0009056"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
     </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/GO_0009058 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009058">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biosynthetic process</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008152"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0009058</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways resulting in the formation of substances; typically the energy-requiring part of metabolism in which simpler substances are transformed into more complex ones.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Anabolism</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anabolism</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biosynthesis</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">formation</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">synthesis</oboInOwl:hasExactSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_generic"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_plant"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
+    <owl:Class rdf:about="&obo;GO_0009058">
+        <rdfs:label rdf:datatype="&xsd;string">biosynthetic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0008152"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0009058</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the formation of substances; typically the energy-requiring part of metabolism in which simpler substances are transformed into more complex ones.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Wikipedia:Anabolism</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">anabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">biosynthesis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">formation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">synthesis</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_plant"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:curators</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0198547684</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways resulting in the formation of substances; typically the energy-requiring part of metabolism in which simpler substances are transformed into more complex ones.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0009058"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GOC:curators</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ISBN:0198547684</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the formation of substances; typically the energy-requiring part of metabolism in which simpler substances are transformed into more complex ones.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;GO_0009058"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
     </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/GO_0009710 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009710">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tropane alkaloid biosynthetic process</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009821"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0018130"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0046448"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0009710</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways resulting in the breakdown of tropane alkaloids, compounds containing the 8-methyl-8-azabicyclo(3.2.1)octane ring system.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tropane alkaloid anabolism</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tropane alkaloid biosynthesis</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tropane alkaloid formation</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tropane alkaloid synthesis</oboInOwl:hasExactSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
+    <owl:Class rdf:about="&obo;GO_0009710">
+        <rdfs:label rdf:datatype="&xsd;string">tropane alkaloid biosynthetic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0009821"/>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0018130"/>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0046448"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0009710</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the breakdown of tropane alkaloids, compounds containing the 8-methyl-8-azabicyclo(3.2.1)octane ring system.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">tropane alkaloid anabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">tropane alkaloid biosynthesis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">tropane alkaloid formation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">tropane alkaloid synthesis</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:ai</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0198506732</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways resulting in the breakdown of tropane alkaloids, compounds containing the 8-methyl-8-azabicyclo(3.2.1)octane ring system.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0009710"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GOC:ai</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ISBN:0198506732</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the breakdown of tropane alkaloids, compounds containing the 8-methyl-8-azabicyclo(3.2.1)octane ring system.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;GO_0009710"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
     </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/GO_0009820 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009820">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alkaloid metabolic process</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006807"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0009820</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways involving alkaloids, nitrogen containing natural products which are not otherwise classified as peptides, nonprotein amino acids, amines, cyanogenic glycosides, glucosinolates, cofactors, phytohormones or primary metabolites (such as purine or pyrimidine bases).</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alkaloid metabolism</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</oboInOwl:hasOBONamespace>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
+    <owl:Class rdf:about="&obo;GO_0009820">
+        <rdfs:label rdf:datatype="&xsd;string">alkaloid metabolic process</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;GO_0008152"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CHEBI_22315"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0006807"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0009820</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways involving alkaloids, nitrogen containing natural products which are not otherwise classified as peptides, nonprotein amino acids, amines, cyanogenic glycosides, glucosinolates, cofactors, phytohormones or primary metabolites (such as purine or pyrimidine bases).</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">alkaloid metabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:lr</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0122146743</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways involving alkaloids, nitrogen containing natural products which are not otherwise classified as peptides, nonprotein amino acids, amines, cyanogenic glycosides, glucosinolates, cofactors, phytohormones or primary metabolites (such as purine or pyrimidine bases).</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0009820"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GOC:lr</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ISBN:0122146743</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">The chemical reactions and pathways involving alkaloids, nitrogen containing natural products which are not otherwise classified as peptides, nonprotein amino acids, amines, cyanogenic glycosides, glucosinolates, cofactors, phytohormones or primary metabolites (such as purine or pyrimidine bases).</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;GO_0009820"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
     </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/GO_0009821 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009821">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alkaloid biosynthetic process</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009820"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044271"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0009821</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways resulting in the formation of alkaloids, nitrogen-containing natural products which are not otherwise classified as nonprotein amino acids, amines, peptides, amines, cyanogenic glycosides, glucosinolates, cofactors, phytohormones, or primary metabolite (such as purine or pyrimidine bases).</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UM-BBD_enzymeID:e0711</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alkaloid anabolism</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alkaloid biosynthesis</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alkaloid formation</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alkaloid synthesis</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</oboInOwl:hasOBONamespace>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
+    <owl:Class rdf:about="&obo;GO_0009821">
+        <rdfs:label rdf:datatype="&xsd;string">alkaloid biosynthetic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0009820"/>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0044271"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0009821</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the formation of alkaloids, nitrogen-containing natural products which are not otherwise classified as nonprotein amino acids, amines, peptides, amines, cyanogenic glycosides, glucosinolates, cofactors, phytohormones, or primary metabolite (such as purine or pyrimidine bases).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UM-BBD_enzymeID:e0711</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">alkaloid anabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">alkaloid biosynthesis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">alkaloid formation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">alkaloid synthesis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EC:1.1.1.51</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:lr</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0122146743</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways resulting in the formation of alkaloids, nitrogen-containing natural products which are not otherwise classified as nonprotein amino acids, amines, peptides, amines, cyanogenic glycosides, glucosinolates, cofactors, phytohormones, or primary metabolite (such as purine or pyrimidine bases).</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0009821"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">EC:1.1.1.51</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GOC:lr</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ISBN:0122146743</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the formation of alkaloids, nitrogen-containing natural products which are not otherwise classified as nonprotein amino acids, amines, peptides, amines, cyanogenic glycosides, glucosinolates, cofactors, phytohormones, or primary metabolite (such as purine or pyrimidine bases).</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;GO_0009821"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
     </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/GO_0009822 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009822">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alkaloid catabolic process</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009820"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044270"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0009822</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways resulting in the breakdown of alkaloids, nitrogen containing natural products not otherwise classified as peptides, nonprotein amino acids, amines, cyanogenic glycosides, glucosinolates, cofactors, phytohormones or primary metabolites (such as purine or pyrimidine bases).</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alkaloid breakdown</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alkaloid catabolism</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alkaloid degradation</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</oboInOwl:hasOBONamespace>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
+    <owl:Class rdf:about="&obo;GO_0009822">
+        <rdfs:label rdf:datatype="&xsd;string">alkaloid catabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0009820"/>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0044270"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0009822</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the breakdown of alkaloids, nitrogen containing natural products not otherwise classified as peptides, nonprotein amino acids, amines, cyanogenic glycosides, glucosinolates, cofactors, phytohormones or primary metabolites (such as purine or pyrimidine bases).</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">alkaloid breakdown</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">alkaloid catabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">alkaloid degradation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:lr</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:01221146743</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways resulting in the breakdown of alkaloids, nitrogen containing natural products not otherwise classified as peptides, nonprotein amino acids, amines, cyanogenic glycosides, glucosinolates, cofactors, phytohormones or primary metabolites (such as purine or pyrimidine bases).</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0009822"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GOC:lr</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ISBN:01221146743</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the breakdown of alkaloids, nitrogen containing natural products not otherwise classified as peptides, nonprotein amino acids, amines, cyanogenic glycosides, glucosinolates, cofactors, phytohormones or primary metabolites (such as purine or pyrimidine bases).</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;GO_0009822"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
     </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/GO_0009987 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009987">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular process</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any process that is carried out at the cellular level, but not necessarily restricted to a single cell. For example, cell communication occurs among more than one cell, but occurs at the cellular level.</obo:IAO_0000115>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0008151</oboInOwl:hasAlternativeId>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0009987</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0050875</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell growth and/or maintenance</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell physiology</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular physiological process</oboInOwl:hasExactSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_pir"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_plant"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
+    <owl:Class rdf:about="&obo;GO_0009987">
+        <rdfs:label rdf:datatype="&xsd;string">cellular process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0008150"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any process that is carried out at the cellular level, but not necessarily restricted to a single cell. For example, cell communication occurs among more than one cell, but occurs at the cellular level.</obo:IAO_0000115>
+        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">GO:0008151</oboInOwl:hasAlternativeId>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0009987</oboInOwl:id>
+        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">GO:0050875</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="&xsd;string">cell growth and/or maintenance</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">cell physiology</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">cellular physiological process</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_plant"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any process that is carried out at the cellular level, but not necessarily restricted to a single cell. For example, cell communication occurs among more than one cell, but occurs at the cellular level.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:go_curators</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:isa_complete</oboInOwl:hasDbXref>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0009987"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">Any process that is carried out at the cellular level, but not necessarily restricted to a single cell. For example, cell communication occurs among more than one cell, but occurs at the cellular level.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GOC:go_curators</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GOC:isa_complete</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="&obo;GO_0009987"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
     </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/GO_0017144 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0017144">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drug metabolic process</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044237"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0017144</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome:REACT_100188</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome:REACT_106588</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome:REACT_109592</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome:REACT_110347</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome:REACT_163</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome:REACT_54870</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome:REACT_85142</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome:REACT_88376</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome:REACT_92052</oboInOwl:hasDbXref>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways involving a drug, a substance used in the diagnosis, treatment or prevention of a disease; as used here antibiotic substances (see antibiotic metabolism) are considered to be drugs, even if not used in medical or veterinary practice.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Drug_metabolism</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drug metabolism</oboInOwl:hasExactSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_pir"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
+    <owl:Class rdf:about="&obo;GO_0017144">
+        <rdfs:label rdf:datatype="&xsd;string">drug metabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0044237"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0017144</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_100188</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_106588</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_109592</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_110347</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_163</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_54870</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_85142</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_88376</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_92052</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways involving a drug, a substance used in the diagnosis, treatment or prevention of a disease; as used here antibiotic substances (see antibiotic metabolism) are considered to be drugs, even if not used in medical or veterinary practice.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Wikipedia:Drug_metabolism</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">drug metabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:cab2</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways involving a drug, a substance used in the diagnosis, treatment or prevention of a disease; as used here antibiotic substances (see antibiotic metabolism) are considered to be drugs, even if not used in medical or veterinary practice.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0017144"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GOC:cab2</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">The chemical reactions and pathways involving a drug, a substance used in the diagnosis, treatment or prevention of a disease; as used here antibiotic substances (see antibiotic metabolism) are considered to be drugs, even if not used in medical or veterinary practice.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;GO_0017144"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
     </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/GO_0018130 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0018130">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterocycle biosynthetic process</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044249"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0046483"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0018130</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways resulting in the formation of heterocyclic compounds, those with a cyclic molecular structure and at least two different atoms in the ring (or rings).</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterocycle anabolism</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterocycle biosynthesis</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterocycle formation</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterocycle synthesis</oboInOwl:hasExactSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
+    <owl:Class rdf:about="&obo;GO_0018130">
+        <rdfs:label rdf:datatype="&xsd;string">heterocycle biosynthetic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0044249"/>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0046483"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0018130</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the formation of heterocyclic compounds, those with a cyclic molecular structure and at least two different atoms in the ring (or rings).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">heterocycle anabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">heterocycle biosynthesis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">heterocycle formation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">heterocycle synthesis</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0198547684</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways resulting in the formation of heterocyclic compounds, those with a cyclic molecular structure and at least two different atoms in the ring (or rings).</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0018130"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ISBN:0198547684</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the formation of heterocyclic compounds, those with a cyclic molecular structure and at least two different atoms in the ring (or rings).</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;GO_0018130"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
     </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/GO_0034641 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0034641">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular nitrogen compound metabolic process</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006807"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044237"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0034641</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome:REACT_102000</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome:REACT_103710</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome:REACT_107293</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome:REACT_108179</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome:REACT_109042</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome:REACT_13</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome:REACT_28699</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome:REACT_29108</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome:REACT_32429</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome:REACT_33347</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome:REACT_34326</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome:REACT_55564</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome:REACT_77741</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome:REACT_82379</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome:REACT_86268</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome:REACT_90299</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome:REACT_91959</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome:REACT_93580</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome:REACT_95666</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome:REACT_98086</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome:REACT_99241</oboInOwl:hasDbXref>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways involving various organic and inorganic nitrogenous compounds, as carried out by individual cells.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular nitrogen compound metabolism</oboInOwl:hasExactSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_generic"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
+    <owl:Class rdf:about="&obo;GO_0034641">
+        <rdfs:label rdf:datatype="&xsd;string">cellular nitrogen compound metabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0006807"/>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0044237"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0034641</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_102000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_103710</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_107293</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_108179</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_109042</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_13</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_28699</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_29108</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_32429</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_33347</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_34326</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_55564</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_77741</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_82379</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_86268</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_90299</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_91959</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_93580</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_95666</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_98086</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_99241</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways involving various organic and inorganic nitrogenous compounds, as carried out by individual cells.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">cellular nitrogen compound metabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mah</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways involving various organic and inorganic nitrogenous compounds, as carried out by individual cells.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0034641"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GOC:mah</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">The chemical reactions and pathways involving various organic and inorganic nitrogenous compounds, as carried out by individual cells.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;GO_0034641"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
     </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/GO_0042737 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042737">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drug catabolic process</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0017144"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044248"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0042737</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways resulting in the breakdown of a drug, a substance used in the diagnosis, treatment or prevention of a disease.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drug breakdown</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drug catabolism</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drug degradation</oboInOwl:hasExactSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
+    <owl:Class rdf:about="&obo;GO_0042737">
+        <rdfs:label rdf:datatype="&xsd;string">drug catabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0017144"/>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0044248"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0042737</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the breakdown of a drug, a substance used in the diagnosis, treatment or prevention of a disease.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">drug breakdown</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">drug catabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">drug degradation</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:go_curators</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways resulting in the breakdown of a drug, a substance used in the diagnosis, treatment or prevention of a disease.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0042737"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GOC:go_curators</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the breakdown of a drug, a substance used in the diagnosis, treatment or prevention of a disease.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;GO_0042737"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
     </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/GO_0044237 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044237">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular metabolic process</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008152"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009987"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0044237</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways by which individual cells transform chemical substances.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular metabolism</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intermediary metabolism</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_pir"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
+    <owl:Class rdf:about="&obo;GO_0044237">
+        <rdfs:label rdf:datatype="&xsd;string">cellular metabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0008152"/>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0009987"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0044237</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways by which individual cells transform chemical substances.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">cellular metabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">intermediary metabolism</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mah</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intermediary metabolism</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0044237"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GOC:go_curators</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">The chemical reactions and pathways by which individual cells transform chemical substances.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;GO_0044237"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
     </owl:Axiom>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:go_curators</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways by which individual cells transform chemical substances.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0044237"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GOC:mah</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">intermediary metabolism</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;GO_0044237"/>
+        <owl:annotatedProperty rdf:resource="&oboInOwl;hasRelatedSynonym"/>
     </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/GO_0044248 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044248">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular catabolic process</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009056"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044237"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0044248</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways resulting in the breakdown of substances, carried out by individual cells.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular breakdown</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular catabolism</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular degradation</oboInOwl:hasExactSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
+    <owl:Class rdf:about="&obo;GO_0044248">
+        <rdfs:label rdf:datatype="&xsd;string">cellular catabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0009056"/>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0044237"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0044248</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the breakdown of substances, carried out by individual cells.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">cellular breakdown</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">cellular catabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">cellular degradation</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:jl</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways resulting in the breakdown of substances, carried out by individual cells.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0044248"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GOC:jl</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the breakdown of substances, carried out by individual cells.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;GO_0044248"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
     </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/GO_0044249 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044249">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular biosynthetic process</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009058"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044237"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0044249</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways resulting in the formation of substances, carried out by individual cells.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular anabolism</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular biosynthesis</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular formation</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular synthesis</oboInOwl:hasExactSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
+    <owl:Class rdf:about="&obo;GO_0044249">
+        <rdfs:label rdf:datatype="&xsd;string">cellular biosynthetic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0009058"/>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0044237"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0044249</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the formation of substances, carried out by individual cells.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">cellular anabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">cellular biosynthesis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">cellular formation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">cellular synthesis</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:jl</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways resulting in the formation of substances, carried out by individual cells.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0044249"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GOC:jl</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the formation of substances, carried out by individual cells.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;GO_0044249"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
     </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/GO_0044270 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044270">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular nitrogen compound catabolic process</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0034641"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044248"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0044270</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways resulting in the breakdown of organic and inorganic nitrogenous compounds.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nitrogen compound breakdown</oboInOwl:hasBroadSynonym>
-        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nitrogen compound catabolism</oboInOwl:hasBroadSynonym>
-        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nitrogen compound degradation</oboInOwl:hasBroadSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
+    <owl:Class rdf:about="&obo;GO_0044270">
+        <rdfs:label rdf:datatype="&xsd;string">cellular nitrogen compound catabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0034641"/>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0044248"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0044270</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the breakdown of organic and inorganic nitrogenous compounds.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasBroadSynonym rdf:datatype="&xsd;string">nitrogen compound breakdown</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym rdf:datatype="&xsd;string">nitrogen compound catabolism</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym rdf:datatype="&xsd;string">nitrogen compound degradation</oboInOwl:hasBroadSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:jl</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0198506732</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways resulting in the breakdown of organic and inorganic nitrogenous compounds.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0044270"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GOC:jl</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ISBN:0198506732</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the breakdown of organic and inorganic nitrogenous compounds.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;GO_0044270"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
     </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/GO_0044271 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044271">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular nitrogen compound biosynthetic process</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0034641"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044249"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0044271</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways resulting in the formation of organic and inorganic nitrogenous compounds.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nitrogen compound anabolism</oboInOwl:hasBroadSynonym>
-        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nitrogen compound biosynthesis</oboInOwl:hasBroadSynonym>
-        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nitrogen compound formation</oboInOwl:hasBroadSynonym>
-        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nitrogen compound synthesis</oboInOwl:hasBroadSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
+    <owl:Class rdf:about="&obo;GO_0044271">
+        <rdfs:label rdf:datatype="&xsd;string">cellular nitrogen compound biosynthetic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0034641"/>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0044249"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0044271</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the formation of organic and inorganic nitrogenous compounds.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasBroadSynonym rdf:datatype="&xsd;string">nitrogen compound anabolism</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym rdf:datatype="&xsd;string">nitrogen compound biosynthesis</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym rdf:datatype="&xsd;string">nitrogen compound formation</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym rdf:datatype="&xsd;string">nitrogen compound synthesis</oboInOwl:hasBroadSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:jl</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0198506732</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways resulting in the formation of organic and inorganic nitrogenous compounds.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0044271"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GOC:jl</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ISBN:0198506732</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the formation of organic and inorganic nitrogenous compounds.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;GO_0044271"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
     </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/GO_0046448 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0046448">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tropane alkaloid metabolic process</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009820"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0046483"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0046448</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways involving tropane alkaloids, compounds containing the 8-methyl-8-azabicyclo(3.2.1)octane ring system.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tropane alkaloid metabolism</oboInOwl:hasExactSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
+    <owl:Class rdf:about="&obo;GO_0046448">
+        <rdfs:label rdf:datatype="&xsd;string">tropane alkaloid metabolic process</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;GO_0008152"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CHEBI_37332"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0009820"/>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0046483"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0046448</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways involving tropane alkaloids, compounds containing the 8-methyl-8-azabicyclo(3.2.1)octane ring system.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">tropane alkaloid metabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:ai</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0198506732</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways involving tropane alkaloids, compounds containing the 8-methyl-8-azabicyclo(3.2.1)octane ring system.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0046448"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GOC:ai</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ISBN:0198506732</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">The chemical reactions and pathways involving tropane alkaloids, compounds containing the 8-methyl-8-azabicyclo(3.2.1)octane ring system.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;GO_0046448"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
     </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/GO_0046483 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0046483">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterocycle metabolic process</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044237"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0046483</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways involving heterocyclic compounds, those with a cyclic molecular structure and at least two different atoms in the ring (or rings).</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterocycle metabolism</oboInOwl:hasExactSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_pir"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
+    <owl:Class rdf:about="&obo;GO_0046483">
+        <rdfs:label rdf:datatype="&xsd;string">heterocycle metabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0044237"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0046483</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways involving heterocyclic compounds, those with a cyclic molecular structure and at least two different atoms in the ring (or rings).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">heterocycle metabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0198506732</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways involving heterocyclic compounds, those with a cyclic molecular structure and at least two different atoms in the ring (or rings).</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0046483"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ISBN:0198506732</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">The chemical reactions and pathways involving heterocyclic compounds, those with a cyclic molecular structure and at least two different atoms in the ring (or rings).</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;GO_0046483"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
     </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/GO_0046700 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0046700">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterocycle catabolic process</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044248"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0046483"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0046700</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways resulting in the breakdown of heterocyclic compounds, those with a cyclic molecular structure and at least two different atoms in the ring (or rings).</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterocycle breakdown</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterocycle catabolism</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterocycle degradation</oboInOwl:hasExactSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
+    <owl:Class rdf:about="&obo;GO_0046700">
+        <rdfs:label rdf:datatype="&xsd;string">heterocycle catabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0044248"/>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0046483"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0046700</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the breakdown of heterocyclic compounds, those with a cyclic molecular structure and at least two different atoms in the ring (or rings).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">heterocycle breakdown</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">heterocycle catabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">heterocycle degradation</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:ai</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways resulting in the breakdown of heterocyclic compounds, those with a cyclic molecular structure and at least two different atoms in the ring (or rings).</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0046700"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GOC:ai</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the breakdown of heterocyclic compounds, those with a cyclic molecular structure and at least two different atoms in the ring (or rings).</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;GO_0046700"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
     </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/GO_0050783 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0050783">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cocaine metabolic process</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0017144"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0046448"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0050783</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways involving cocaine, an alkaloid obtained from the dried leaves of the shrub Erythroxylon coca. It is a cerebral stimulant and narcotic.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cocaine metabolism</oboInOwl:hasExactSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
+    <owl:Class rdf:about="&obo;GO_0050783">
+        <rdfs:label rdf:datatype="&xsd;string">cocaine metabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0017144"/>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0046448"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0050783</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways involving cocaine, an alkaloid obtained from the dried leaves of the shrub Erythroxylon coca. It is a cerebral stimulant and narcotic.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">cocaine metabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0198506732</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways involving cocaine, an alkaloid obtained from the dried leaves of the shrub Erythroxylon coca. It is a cerebral stimulant and narcotic.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0050783"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ISBN:0198506732</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">The chemical reactions and pathways involving cocaine, an alkaloid obtained from the dried leaves of the shrub Erythroxylon coca. It is a cerebral stimulant and narcotic.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;GO_0050783"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
     </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/GO_0050784 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0050784">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cocaine catabolic process</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009822"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0042737"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0046700"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0050783"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0050784</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways resulting in the breakdown of cocaine, an alkaloid obtained from the dried leaves of the shrub Erythroxylon coca. It is a cerebral stimulant and narcotic.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cocaine breakdown</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cocaine catabolism</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cocaine degradation</oboInOwl:hasExactSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
+    <owl:Class rdf:about="&obo;GO_0050784">
+        <rdfs:label rdf:datatype="&xsd;string">cocaine catabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0009822"/>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0042737"/>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0046700"/>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0050783"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0050784</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the breakdown of cocaine, an alkaloid obtained from the dried leaves of the shrub Erythroxylon coca. It is a cerebral stimulant and narcotic.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">cocaine breakdown</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">cocaine catabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">cocaine degradation</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0198506732</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways resulting in the breakdown of cocaine, an alkaloid obtained from the dried leaves of the shrub Erythroxylon coca. It is a cerebral stimulant and narcotic.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0050784"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ISBN:0198506732</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the breakdown of cocaine, an alkaloid obtained from the dried leaves of the shrub Erythroxylon coca. It is a cerebral stimulant and narcotic.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;GO_0050784"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
     </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/GO_0050799 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0050799">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cocaine biosynthetic process</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009710"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0050783"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0050799</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways resulting in the formation of cocaine, an alkaloid obtained from the dried leaves of the shrub Erythroxylon coca. It is a cerebral stimulant and narcotic.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cocaine anabolism</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cocaine biosynthesis</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cocaine formation</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cocaine synthesis</oboInOwl:hasExactSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
+    <owl:Class rdf:about="&obo;GO_0050799">
+        <rdfs:label rdf:datatype="&xsd;string">cocaine biosynthetic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0009710"/>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0050783"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0050799</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the formation of cocaine, an alkaloid obtained from the dried leaves of the shrub Erythroxylon coca. It is a cerebral stimulant and narcotic.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">cocaine anabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">cocaine biosynthesis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">cocaine formation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">cocaine synthesis</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#gosubset_prok"/>
     </owl:Class>
     <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:ai</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways resulting in the formation of cocaine, an alkaloid obtained from the dried leaves of the shrub Erythroxylon coca. It is a cerebral stimulant and narcotic.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0050799"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GOC:ai</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the formation of cocaine, an alkaloid obtained from the dried leaves of the shrub Erythroxylon coca. It is a cerebral stimulant and narcotic.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;GO_0050799"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
     </owl:Axiom>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 0.5.1-SNAPSHOT) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.2.3.22702) http://owlapi.sourceforge.net -->
 

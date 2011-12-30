@@ -1,0 +1,2 @@
+
+Explore the imports chain. Which ontologies are imported? What are the contents of the bio-chebi.owl ontology?
