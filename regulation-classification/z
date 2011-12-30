@@ -1,0 +1,230 @@
+format-version: 1.2
+date: 29:12:2011 18:53
+saved-by: cjm
+subsetdef: goslim_aspergillus "Aspergillus GO slim"
+subsetdef: goslim_candida "Candida GO slim"
+subsetdef: goslim_generic "Generic GO slim"
+subsetdef: goslim_pir "PIR GO slim"
+subsetdef: goslim_plant "Plant GO slim"
+subsetdef: goslim_pombe "Fission yeast GO slim"
+subsetdef: goslim_yeast "Yeast GO slim"
+subsetdef: gosubset_prok "Prokaryotic GO subset"
+subsetdef: high_level_annotation_qc "High-level terms not to be used for direct annotation"
+subsetdef: mf_needs_review "Catalytic activity terms in need of attention"
+synonymtypedef: systematic_synonym "Systematic synonym" EXACT
+default-namespace: file:/Users/cjm/cvs/oboformat-docs/tutorial/regulation-classification/mitosis.obo
+ontology: go
+
+[Term]
+id: GO:0000087
+name: M phase of mitotic cell cycle
+namespace: biological_process
+def: "M phase occurring as part of the mitotic cell cycle. M phase is the part of the cell cycle during which nuclear division takes place. A mitotic cell cycle is one which canonically comprises four successive phases called G1, S, G2, and M and includes replication of the genome and the subsequent segregation of chromosomes into daughter cells." [GOC:dph, GOC:mah, ISBN:0815316194]
+synonym: "M-phase of mitotic cell cycle" EXACT []
+xref: Reactome:REACT_105412
+xref: Reactome:REACT_107095
+xref: Reactome:REACT_109059
+xref: Reactome:REACT_29488
+xref: Reactome:REACT_33490
+xref: Reactome:REACT_82055
+xref: Reactome:REACT_87132
+xref: Reactome:REACT_88263
+xref: Reactome:REACT_910
+xref: Reactome:REACT_92998
+xref: Reactome:REACT_93131
+xref: Reactome:REACT_93566
+xref: Reactome:REACT_93720
+xref: Reactome:REACT_94536
+is_a: GO:0000279 ! M phase
+intersection_of: GO:0000279 ! M phase
+intersection_of: part_of GO:0000278 ! mitotic cell cycle
+relationship: part_of GO:0000278 ! mitotic cell cycle
+
+[Term]
+id: GO:0000278
+name: mitotic cell cycle
+namespace: biological_process
+def: "Progression through the phases of the mitotic cell cycle, the most common eukaryotic cell cycle, which canonically comprises four successive phases called G1, S, G2, and M and includes replication of the genome and the subsequent segregation of chromosomes into daughter cells. In some variant cell cycles nuclear replication or nuclear division may not be followed by cell division, or G1 and G2 phases may be absent." [GOC:mah, ISBN:0815316194, Reactome:69278]
+subset: goslim_yeast
+xref: Reactome:REACT_100451
+xref: Reactome:REACT_104035
+xref: Reactome:REACT_104195
+xref: Reactome:REACT_105856
+xref: Reactome:REACT_108233
+xref: Reactome:REACT_152
+xref: Reactome:REACT_28464
+xref: Reactome:REACT_28953
+xref: Reactome:REACT_33388
+xref: Reactome:REACT_53493
+xref: Reactome:REACT_79085
+xref: Reactome:REACT_84794
+xref: Reactome:REACT_85137
+xref: Reactome:REACT_85950
+xref: Reactome:REACT_90332
+xref: Reactome:REACT_90846
+xref: Reactome:REACT_96281
+xref: Reactome:REACT_97744
+xref: Reactome:REACT_98208
+is_a: GO:0007049 ! cell cycle
+
+[Term]
+id: GO:0000279
+name: M phase
+namespace: biological_process
+def: "A cell cycle process comprising the steps by which a cell progresses through M phase, the part of the cell cycle comprising nuclear division." [GOC:dph, GOC:mah, ISBN:0815316194]
+synonym: "M-phase" EXACT []
+xref: Wikipedia:M_phase
+is_a: GO:0022403 ! cell cycle phase
+
+[Term]
+id: GO:0000280
+name: nuclear division
+namespace: biological_process
+def: "The division of a cell nucleus into two nuclei, with DNA and other nuclear contents distributed between the daughter nuclei." [GOC:mah]
+subset: goslim_pir
+synonym: "karyokinesis" RELATED []
+is_a: GO:0048285 ! organelle fission
+
+[Term]
+id: GO:0006996
+name: organelle organization
+namespace: biological_process
+def: "A process that is carried out at the cellular level which results in the assembly, arrangement of constituent parts, or disassembly of an organelle within a cell. An organelle is an organized structure of distinctive morphology and function. Includes the nucleus, mitochondria, plastids, vacuoles, vesicles, ribosomes and the cytoskeleton. Excludes the plasma membrane." [GOC:mah]
+subset: goslim_aspergillus
+subset: goslim_candida
+subset: goslim_pir
+subset: gosubset_prok
+synonym: "organelle organisation" EXACT [GOC:curators]
+synonym: "organelle organization and biogenesis" RELATED [GOC:dph, GOC:jl, GOC:mah]
+is_a: GO:0071842 ! cellular component organization at cellular level
+
+[Term]
+id: GO:0007049
+name: cell cycle
+namespace: biological_process
+def: "The progression of biochemical and morphological phases and events that occur in a cell during successive cell replication or nuclear replication events. Canonically, the cell cycle comprises the replication and segregation of genetic material followed by the division of the cell, but in endocycles or syncytial cells nuclear replication or nuclear division may not be followed by cell division." [GOC:go_curators]
+subset: goslim_aspergillus
+subset: goslim_candida
+subset: goslim_generic
+subset: goslim_pir
+subset: goslim_plant
+subset: gosubset_prok
+synonym: "cell-division cycle" EXACT []
+xref: Wikipedia:Cell_cycle
+is_a: GO:0009987 ! cellular process
+
+[Term]
+id: GO:0007067
+name: mitosis
+namespace: biological_process
+def: "A cell cycle process comprising the steps by which the nucleus of a eukaryotic cell divides; the process involves condensation of chromosomal DNA into a highly compacted form. Canonically, mitosis produces two daughter nuclei whose chromosome complement is identical to that of the mother cell." [GOC:dph, GOC:ma, GOC:mah, ISBN:0198547684]
+subset: goslim_generic
+xref: Wikipedia:Mitosis
+is_a: GO:0000280 ! nuclear division
+is_a: GO:0022403 ! cell cycle phase
+relationship: part_of GO:0000087 ! M phase of mitotic cell cycle
+
+[Term]
+id: GO:0008150
+name: biological_process
+namespace: biological_process
+alt_id: GO:0000004
+alt_id: GO:0007582
+def: "Any process specifically pertinent to the functioning of integrated living units: cells, tissues, organs, and organisms. A process is a collection of molecular events with a defined beginning and end." [GOC:go_curators, GOC:isa_complete]
+comment: Note that, in addition to forming the root of the biological process ontology, this term is recommended for use for the annotation of gene products whose biological process is unknown. Note that when this term is used for annotation, it indicates that no information was available about the biological process of the gene product annotated as of the date the annotation was made; the evidence code ND, no data, is used to indicate this.
+subset: goslim_aspergillus
+subset: goslim_candida
+subset: goslim_generic
+subset: goslim_pir
+subset: goslim_plant
+subset: goslim_pombe
+subset: goslim_yeast
+subset: gosubset_prok
+synonym: "biological process" EXACT []
+synonym: "biological process unknown" NARROW []
+synonym: "physiological process" EXACT []
+xref: Wikipedia:Biological_process
+
+[Term]
+id: GO:0009987
+name: cellular process
+namespace: biological_process
+alt_id: GO:0008151
+alt_id: GO:0050875
+def: "Any process that is carried out at the cellular level, but not necessarily restricted to a single cell. For example, cell communication occurs among more than one cell, but occurs at the cellular level." [GOC:go_curators, GOC:isa_complete]
+subset: goslim_pir
+subset: goslim_plant
+subset: gosubset_prok
+synonym: "cell growth and/or maintenance" NARROW []
+synonym: "cell physiology" EXACT []
+synonym: "cellular physiological process" EXACT []
+is_a: GO:0008150 ! biological_process
+
+[Term]
+id: GO:0016043
+name: cellular component organization
+namespace: biological_process
+def: "A process that results in the assembly, arrangement of constituent parts, or disassembly of a cellular component." [GOC:ai, GOC:jl, GOC:mah]
+subset: goslim_pir
+subset: goslim_plant
+subset: gosubset_prok
+synonym: "cell organisation" EXACT []
+synonym: "cell organization and biogenesis" RELATED [GOC:mah]
+is_a: GO:0071840 ! cellular component organization or biogenesis
+
+[Term]
+id: GO:0022402
+name: cell cycle process
+namespace: biological_process
+def: "A cellular process that is involved in the progression of biochemical and morphological phases and events that occur in a cell during successive cell replication or nuclear replication events." [GOC:isa_complete]
+subset: gosubset_prok
+is_a: GO:0009987 ! cellular process
+relationship: part_of GO:0007049 ! cell cycle
+
+[Term]
+id: GO:0022403
+name: cell cycle phase
+namespace: biological_process
+def: "A cell cycle process comprising the steps by which a cell progresses through one of the biochemical and morphological phases and events that occur during successive cell replication or nuclear replication events." [GOC:dph, GOC:isa_complete, GOC:tb]
+is_a: GO:0022402 ! cell cycle process
+
+[Term]
+id: GO:0048285
+name: organelle fission
+namespace: biological_process
+def: "The creation of two or more organelles by division of one organelle." [GOC:jid]
+subset: goslim_pir
+subset: goslim_yeast
+is_a: GO:0006996 ! organelle organization
+
+[Term]
+id: GO:0071840
+name: cellular component organization or biogenesis
+namespace: biological_process
+def: "A process that results in the biosynthesis of constituent macromolecules, assembly, arrangement of constituent parts, or disassembly of a cellular component." [GOC:mah]
+is_a: GO:0008150 ! biological_process
+
+[Term]
+id: GO:0071841
+name: cellular component organization or biogenesis at cellular level
+namespace: biological_process
+def: "A process that is carried out at the cellular level, and results in the biosynthesis of constituent macromolecules, assembly, arrangement of constituent parts, or disassembly of a cellular component." [GOC:mah]
+is_a: GO:0009987 ! cellular process
+is_a: GO:0071840 ! cellular component organization or biogenesis
+
+[Term]
+id: GO:0071842
+name: cellular component organization at cellular level
+namespace: biological_process
+def: "A process that is carried out at the cellular level and results in the assembly, arrangement of constituent parts, or disassembly of a cellular component." [GOC:mah]
+is_a: GO:0016043 ! cellular component organization
+is_a: GO:0071841 ! cellular component organization or biogenesis at cellular level
+
+[Typedef]
+id: part_of
+name: part_of
+namespace: gene_ontology
+xref: BFO:0000050
+xref: OBO_REL:part_of
+is_transitive: true
+
