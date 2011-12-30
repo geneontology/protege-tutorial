@@ -1,22 +1,32 @@
 ADVANCED
 
-Pre-req: Intro to multiple ontologies
+Pre-requisites:
+
+ * Intro to multiple ontologies
 
 Inputs:
 
 * cocaine-metabolism.owl
+  (This ontology imports bio-chebi.owl)
 
-This ontology imports bio-chebi.owl
+Instructions:
 
-Goal:
-
-# Create logical definitions (equivalence axioms) for the 3 cocaine metabolism related classes.
+# Examine the asserted hierarchy. Ignore cocaine and sinapate terms for now.
 # Set reasoner to Elk and classify
-# Check the results
+# Examine the inferred hierarchy. Does it look correct?
+# Create logical definitions (equivalence axioms) for the 3 cocaine metabolism related classes.
+# Synchronize the reasoner
+# Check the inferred hierarchy. Does it look correct? Can you explain why?
+# Create logical definitions (equivalence axioms) for the sinapate metabolism related classes.
+# Synchronize the reasoner
+# Check the inferred hierarchy. Is it correct? Can you tell how the reasoner figured this out (bonus points)?
+# Add some new metabolism/catabolism/biosynthesis terms (it doesn't matter if they correspond to existing GO terms)
+# Synchronize the reasoner
 
-Are they classified correctly? Can you explain why?
+Extra Bonus:
 
-Bonus:
+Explanations are broken using Elk. Try using another reasoner and getting explanations for the classifications.
+(this may be frustrating)
 
-Explanations are broken using Elk. Try using another reasoner and getting explanations for the classifications
+
 

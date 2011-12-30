@@ -95,12 +95,12 @@
         <rdfs:comment rdf:datatype="&xsd;string">Aspergillus GO slim</rdfs:comment>
         <rdfs:subPropertyOf rdf:resource="&oboInOwl;SubsetProperty"/>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_pombe">
-        <rdfs:comment rdf:datatype="&xsd;string">Fission yeast GO slim</rdfs:comment>
-        <rdfs:subPropertyOf rdf:resource="&oboInOwl;SubsetProperty"/>
-    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#mf_needs_review">
         <rdfs:comment rdf:datatype="&xsd;string">Catalytic activity terms in need of attention</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&oboInOwl;SubsetProperty"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_pombe">
+        <rdfs:comment rdf:datatype="&xsd;string">Fission yeast GO slim</rdfs:comment>
         <rdfs:subPropertyOf rdf:resource="&oboInOwl;SubsetProperty"/>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#systematic_synonym">
@@ -108,12 +108,12 @@
         <rdfs:subPropertyOf rdf:resource="&oboInOwl;SynonymTypeProperty"/>
         <oboInOwl:hasScope rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_pir">
-        <rdfs:comment rdf:datatype="&xsd;string">PIR GO slim</rdfs:comment>
-        <rdfs:subPropertyOf rdf:resource="&oboInOwl;SubsetProperty"/>
-    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_yeast">
         <rdfs:comment rdf:datatype="&xsd;string">Yeast GO slim</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&oboInOwl;SubsetProperty"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="&obo;go/tutorial/chebi-conjugate-base/cocaine-metabolism#goslim_pir">
+        <rdfs:comment rdf:datatype="&xsd;string">PIR GO slim</rdfs:comment>
         <rdfs:subPropertyOf rdf:resource="&oboInOwl;SubsetProperty"/>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="&oboInOwl;hasNarrowSynonym">
@@ -148,6 +148,40 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006725 -->
+
+    <owl:Class rdf:about="&obo;GO_0006725">
+        <rdfs:label rdf:datatype="&xsd;string">cellular aromatic compound metabolic process</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;GO_0008152"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CHEBI_33655"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0006725</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways involving aromatic compounds, any organic compound characterized by one or more planar rings, each of which contains conjugated double bonds and delocalized pi electrons, as carried out by individual cells.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">aromatic compound metabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="&xsd;string">aromatic hydrocarbon metabolic process</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="&xsd;string">aromatic hydrocarbon metabolism</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="&obo;go#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go#gosubset_prok"/>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GOC:ai</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ISBN:0198506732</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">The chemical reactions and pathways involving aromatic compounds, any organic compound characterized by one or more planar rings, each of which contains conjugated double bonds and delocalized pi electrons, as carried out by individual cells.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;GO_0006725"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
     
 
 
@@ -293,6 +327,70 @@
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ISBN:0198547684</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the formation of substances; typically the energy-requiring part of metabolism in which simpler substances are transformed into more complex ones.</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;GO_0009058"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0009698 -->
+
+    <owl:Class rdf:about="&obo;GO_0009698">
+        <rdfs:label rdf:datatype="&xsd;string">phenylpropanoid metabolic process</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;GO_0008152"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CHEBI_26004"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0009698</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MetaCyc:PWY1F-467</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways involving aromatic derivatives of trans-cinnamic acid.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">phenylpropanoid metabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go#gosubset_prok"/>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GOC:jl</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">The chemical reactions and pathways involving aromatic derivatives of trans-cinnamic acid.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;GO_0009698"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0009699 -->
+
+    <owl:Class rdf:about="&obo;GO_0009699">
+        <rdfs:label rdf:datatype="&xsd;string">phenylpropanoid biosynthetic process</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;GO_0009058"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0002234"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CHEBI_26004"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0009699</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the formation of aromatic derivatives of trans-cinnamic acid.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">phenylpropanoid anabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">phenylpropanoid biosynthesis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">phenylpropanoid formation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">phenylpropanoid synthesis</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go#gosubset_prok"/>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GOC:jl</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the formation of aromatic derivatives of trans-cinnamic acid.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;GO_0009699"/>
         <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
     </owl:Axiom>
     
@@ -511,6 +609,163 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0019438 -->
+
+    <owl:Class rdf:about="&obo;GO_0019438">
+        <rdfs:label rdf:datatype="&xsd;string">aromatic compound biosynthetic process</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;GO_0009058"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0002234"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CHEBI_33655"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0019438</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the formation of aromatic compounds, any substance containing an aromatic carbon ring.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">aromatic compound anabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">aromatic compound biosynthesis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">aromatic compound formation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">aromatic compound synthesis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="&xsd;string">aromatic hydrocarbon biosynthesis</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="&xsd;string">aromatic hydrocarbon biosynthetic process</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="&obo;go#gosubset_prok"/>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GOC:ai</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the formation of aromatic compounds, any substance containing an aromatic carbon ring.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;GO_0019438"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019439 -->
+
+    <owl:Class rdf:about="&obo;GO_0019439">
+        <rdfs:label rdf:datatype="&xsd;string">aromatic compound catabolic process</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;GO_0009056"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0002233"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CHEBI_33655"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0019439</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the breakdown of aromatic compounds, any substance containing an aromatic carbon ring.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">aromatic compound breakdown</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">aromatic compound catabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">aromatic compound degradation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="&xsd;string">aromatic hydrocarbon catabolic process</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="&xsd;string">aromatic hydrocarbon catabolism</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="&obo;go#gosubset_prok"/>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GOC:ai</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the breakdown of aromatic compounds, any substance containing an aromatic carbon ring.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;GO_0019439"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019628 -->
+
+    <owl:Class rdf:about="&obo;GO_0019628">
+        <rdfs:label rdf:datatype="&xsd;string">urate catabolic process</rdfs:label>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0019628</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MetaCyc:P165-PWY</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the breakdown of urate, the anion of uric acid, 2,6,8-trioxypurine.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">urate breakdown</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">urate catabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">urate degradation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">uric acid catabolic process</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go#gosubset_prok"/>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ISBN:0198506732</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the breakdown of urate, the anion of uric acid, 2,6,8-trioxypurine.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;GO_0019628"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0033496 -->
+
+    <owl:Class rdf:about="&obo;GO_0033496">
+        <rdfs:label rdf:datatype="&xsd;string">sinapate metabolic process</rdfs:label>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0033496</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways involving sinapate, (2E)-3-(4-hydroxy-3,5-dimethoxyphenyl)prop-2-enoate.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">sinapate metabolism</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CHEBI:30023</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GOC:mah</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">The chemical reactions and pathways involving sinapate, (2E)-3-(4-hydroxy-3,5-dimethoxyphenyl)prop-2-enoate.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;GO_0033496"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0033497 -->
+
+    <owl:Class rdf:about="&obo;GO_0033497">
+        <rdfs:label rdf:datatype="&xsd;string">sinapate biosynthetic process</rdfs:label>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0033497</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MetaCyc:PWY-5168</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the formation of sinapate, (2E)-3-(4-hydroxy-3,5-dimethoxyphenyl)prop-2-enoate.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">sinapate anabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">sinapate biosynthesis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">sinapate formation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">sinapate synthesis</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CHEBI:30023</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GOC:mah</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the formation of sinapate, (2E)-3-(4-hydroxy-3,5-dimethoxyphenyl)prop-2-enoate.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;GO_0033497"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0034418 -->
+
+    <owl:Class rdf:about="&obo;GO_0034418">
+        <rdfs:label rdf:datatype="&xsd;string">urate biosynthetic process</rdfs:label>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0034418</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_115590</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the formation of urate, the anion of uric acid, 2,6,8-trioxypurine.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">urate anabolism</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">urate biosynthesis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">urate formation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">urate synthesis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">uric acid biosynthetic process</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GOC:mah</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the formation of urate, the anion of uric acid, 2,6,8-trioxypurine.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;GO_0034418"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0042737 -->
 
     <owl:Class rdf:about="&obo;GO_0042737">
@@ -543,6 +798,57 @@
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GOC:go_curators</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the breakdown of a drug, a substance used in the diagnosis, treatment or prevention of a disease.</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;GO_0042737"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0046271 -->
+
+    <owl:Class rdf:about="&obo;GO_0046271">
+        <rdfs:label rdf:datatype="&xsd;string">phenylpropanoid catabolic process</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;GO_0009056"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0002233"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CHEBI_26004"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0046271</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the breakdown of aromatic derivatives of trans-cinnamic acid.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">phenylpropanoid breakdown</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">phenylpropanoid catabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">phenylpropanoid degradation</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go#gosubset_prok"/>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GOC:ai</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the breakdown of aromatic derivatives of trans-cinnamic acid.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;GO_0046271"/>
+        <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0046415 -->
+
+    <owl:Class rdf:about="&obo;GO_0046415">
+        <rdfs:label rdf:datatype="&xsd;string">urate metabolic process</rdfs:label>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0046415</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways involving urate, the anion of uric acid, 2,6,8-trioxypurine, the end product of purine metabolism in certain mammals and the main excretory product in uricotelic animals.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">urate metabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go#gosubset_prok"/>
+    </owl:Class>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ISBN:0198506732</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="&xsd;string">The chemical reactions and pathways involving urate, the anion of uric acid, 2,6,8-trioxypurine, the end product of purine metabolism in certain mammals and the main excretory product in uricotelic animals.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;GO_0046415"/>
         <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
     </owl:Axiom>
     
@@ -700,69 +1006,6 @@
         <owl:annotatedTarget rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the formation of cocaine, an alkaloid obtained from the dried leaves of the shrub Erythroxylon coca. It is a cerebral stimulant and narcotic.</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;GO_0050799"/>
         <owl:annotatedProperty rdf:resource="&obo;IAO_0000115"/>
-    </owl:Axiom>
-
-    <!-- http://purl.obolibrary.org/obo/GO_0019628 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019628">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urate catabolic process</rdfs:label>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0019628</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MetaCyc:P165-PWY</oboInOwl:hasDbXref>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways resulting in the breakdown of urate, the anion of uric acid, 2,6,8-trioxypurine.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urate breakdown</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urate catabolism</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urate degradation</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uric acid catabolic process</oboInOwl:hasExactSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#gosubset_prok"/>
-    </owl:Class>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0198506732</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways resulting in the breakdown of urate, the anion of uric acid, 2,6,8-trioxypurine.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0019628"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0034418 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0034418">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urate biosynthetic process</rdfs:label>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0034418</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome:REACT_115590</oboInOwl:hasDbXref>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways resulting in the formation of urate, the anion of uric acid, 2,6,8-trioxypurine.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urate anabolism</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urate biosynthesis</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urate formation</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urate synthesis</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uric acid biosynthetic process</oboInOwl:hasExactSynonym>
-    </owl:Class>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mah</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways resulting in the formation of urate, the anion of uric acid, 2,6,8-trioxypurine.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0034418"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0046415 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0046415">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urate metabolic process</rdfs:label>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0046415</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways involving urate, the anion of uric acid, 2,6,8-trioxypurine, the end product of purine metabolism in certain mammals and the main excretory product in uricotelic animals.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urate metabolism</oboInOwl:hasExactSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#gosubset_prok"/>
-    </owl:Class>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0198506732</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways involving urate, the anion of uric acid, 2,6,8-trioxypurine, the end product of purine metabolism in certain mammals and the main excretory product in uricotelic animals.</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0046415"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
     </owl:Axiom>
 </rdf:RDF>
 
