@@ -1,0 +1,362 @@
+format-version: 1.2
+ontology: go/tutorial/chebi-conjugate-base/cocaine-metabolism
+subsetdef: goslim_aspergillus "Aspergillus GO slim"
+subsetdef: goslim_candida "Candida GO slim"
+subsetdef: goslim_generic "Generic GO slim"
+subsetdef: goslim_pir "PIR GO slim"
+subsetdef: goslim_plant "Plant GO slim"
+subsetdef: goslim_pombe "Fission yeast GO slim"
+subsetdef: goslim_yeast "Yeast GO slim"
+subsetdef: gosubset_prok "Prokaryotic GO subset"
+subsetdef: high_level_annotation_qc "High-level terms not to be used for direct annotation"
+subsetdef: mf_needs_review "Catalytic activity terms in need of attention"
+synonymtypedef: systematic_synonym "Systematic synonym" EXACT
+
+[Term]
+id: GO:0006807
+name: nitrogen compound metabolic process
+namespace: biological_process
+def: "The chemical reactions and pathways involving organic or inorganic compounds that contain nitrogen, including (but not limited to) nitrogen fixation, nitrification, denitrification, assimilatory/dissimilatory nitrate reduction and the interconversion of nitrogenous organic matter and ammonium." [CHEBI:51143, GOC:go_curators, GOC:jl, ISBN:0198506732]
+comment: Note that amino acid and derivative metabolism should not be annotated here. Instead use the 'amino acid and derivative metabolism' node.
+subset: goslim_pir  ! PIR GO slim
+subset: gosubset_prok  ! Prokaryotic GO subset
+synonym: "nitrogen compound metabolism" EXACT []
+is_a: GO:0008152  ! metabolic process
+
+[Term]
+id: GO:0008150
+name: biological_process
+namespace: biological_process
+alt_id: GO:0000004
+alt_id: GO:0007582
+def: "Any process specifically pertinent to the functioning of integrated living units: cells, tissues, organs, and organisms. A process is a collection of molecular events with a defined beginning and end." [GOC:go_curators, GOC:isa_complete]
+comment: Note that, in addition to forming the root of the biological process ontology, this term is recommended for use for the annotation of gene products whose biological process is unknown. Note that when this term is used for annotation, it indicates that no information was available about the biological process of the gene product annotated as of the date the annotation was made; the evidence code ND, no data, is used to indicate this.
+subset: goslim_aspergillus  ! Aspergillus GO slim
+subset: goslim_candida  ! Candida GO slim
+subset: goslim_generic  ! Generic GO slim
+subset: goslim_pir  ! PIR GO slim
+subset: goslim_plant  ! Plant GO slim
+subset: goslim_pombe  ! Fission yeast GO slim
+subset: goslim_yeast  ! Yeast GO slim
+subset: gosubset_prok  ! Prokaryotic GO subset
+synonym: "biological process" EXACT []
+synonym: "biological process unknown" NARROW []
+synonym: "physiological process" EXACT []
+xref: Wikipedia:Biological_process
+
+[Term]
+id: GO:0008152
+name: metabolic process
+namespace: biological_process
+def: "The chemical reactions and pathways, including anabolism and catabolism, by which living organisms transform chemical substances. Metabolic processes typically transform small molecules, but also include macromolecular processes such as DNA repair and replication, and protein synthesis and degradation." [GOC:go_curators, ISBN:0198547684]
+comment: Note that metabolic processes do not include single functions or processes such as protein-protein interactions, protein-nucleic acids, nor receptor-ligand interactions.
+subset: goslim_pir  ! PIR GO slim
+subset: goslim_plant  ! Plant GO slim
+subset: gosubset_prok  ! Prokaryotic GO subset
+synonym: "metabolic process resulting in cell growth" NARROW []
+synonym: "metabolism" EXACT []
+synonym: "metabolism resulting in cell growth" NARROW []
+xref: Wikipedia:Metabolism
+is_a: GO:0008150  ! biological_process
+
+[Term]
+id: GO:0009056
+name: catabolic process
+namespace: biological_process
+def: "The chemical reactions and pathways resulting in the breakdown of substances, including the breakdown of carbon compounds with the liberation of energy for use by the cell or organism." [ISBN:0198547684]
+subset: goslim_generic  ! Generic GO slim
+subset: goslim_plant  ! Plant GO slim
+subset: gosubset_prok  ! Prokaryotic GO subset
+synonym: "breakdown" EXACT []
+synonym: "catabolism" EXACT []
+synonym: "degradation" EXACT []
+xref: Wikipedia:Catabolism
+is_a: GO:0008152  ! metabolic process
+
+[Term]
+id: GO:0009058
+name: biosynthetic process
+namespace: biological_process
+def: "The chemical reactions and pathways resulting in the formation of substances; typically the energy-requiring part of metabolism in which simpler substances are transformed into more complex ones." [GOC:curators, ISBN:0198547684]
+subset: goslim_generic  ! Generic GO slim
+subset: goslim_plant  ! Plant GO slim
+subset: gosubset_prok  ! Prokaryotic GO subset
+synonym: "anabolism" EXACT []
+synonym: "biosynthesis" EXACT []
+synonym: "formation" EXACT []
+synonym: "synthesis" EXACT []
+xref: Wikipedia:Anabolism
+is_a: GO:0008152  ! metabolic process
+
+[Term]
+id: GO:0009710
+name: tropane alkaloid biosynthetic process
+namespace: biological_process
+def: "The chemical reactions and pathways resulting in the breakdown of tropane alkaloids, compounds containing the 8-methyl-8-azabicyclo(3.2.1)octane ring system." [GOC:ai, ISBN:0198506732]
+subset: gosubset_prok  ! Prokaryotic GO subset
+synonym: "tropane alkaloid anabolism" EXACT []
+synonym: "tropane alkaloid biosynthesis" EXACT []
+synonym: "tropane alkaloid formation" EXACT []
+synonym: "tropane alkaloid synthesis" EXACT []
+is_a: GO:0009821  ! alkaloid biosynthetic process
+is_a: GO:0018130  ! heterocycle biosynthetic process
+is_a: GO:0046448  ! tropane alkaloid metabolic process
+
+[Term]
+id: GO:0009820
+name: alkaloid metabolic process
+namespace: biological_process
+def: "The chemical reactions and pathways involving alkaloids, nitrogen containing natural products which are not otherwise classified as peptides, nonprotein amino acids, amines, cyanogenic glycosides, glucosinolates, cofactors, phytohormones or primary metabolites (such as purine or pyrimidine bases)." [GOC:lr, ISBN:0122146743]
+subset: gosubset_prok  ! Prokaryotic GO subset
+synonym: "alkaloid metabolism" EXACT []
+is_a: GO:0006807  ! nitrogen compound metabolic process
+
+[Term]
+id: GO:0009821
+name: alkaloid biosynthetic process
+namespace: biological_process
+def: "The chemical reactions and pathways resulting in the formation of alkaloids, nitrogen-containing natural products which are not otherwise classified as nonprotein amino acids, amines, peptides, amines, cyanogenic glycosides, glucosinolates, cofactors, phytohormones, or primary metabolite (such as purine or pyrimidine bases)." [EC:1.1.1.51, GOC:lr, ISBN:0122146743]
+subset: gosubset_prok  ! Prokaryotic GO subset
+synonym: "alkaloid anabolism" EXACT []
+synonym: "alkaloid biosynthesis" EXACT []
+synonym: "alkaloid formation" EXACT []
+synonym: "alkaloid synthesis" EXACT []
+xref: UM-BBD_enzymeID:e0711
+is_a: GO:0009820  ! alkaloid metabolic process
+is_a: GO:0044271  ! cellular nitrogen compound biosynthetic process
+
+[Term]
+id: GO:0009822
+name: alkaloid catabolic process
+namespace: biological_process
+def: "The chemical reactions and pathways resulting in the breakdown of alkaloids, nitrogen containing natural products not otherwise classified as peptides, nonprotein amino acids, amines, cyanogenic glycosides, glucosinolates, cofactors, phytohormones or primary metabolites (such as purine or pyrimidine bases)." [GOC:lr, ISBN:01221146743]
+subset: gosubset_prok  ! Prokaryotic GO subset
+synonym: "alkaloid breakdown" EXACT []
+synonym: "alkaloid catabolism" EXACT []
+synonym: "alkaloid degradation" EXACT []
+is_a: GO:0009820  ! alkaloid metabolic process
+is_a: GO:0044270  ! cellular nitrogen compound catabolic process
+
+[Term]
+id: GO:0009987
+name: cellular process
+namespace: biological_process
+alt_id: GO:0008151
+alt_id: GO:0050875
+def: "Any process that is carried out at the cellular level, but not necessarily restricted to a single cell. For example, cell communication occurs among more than one cell, but occurs at the cellular level." [GOC:go_curators, GOC:isa_complete]
+subset: goslim_pir  ! PIR GO slim
+subset: goslim_plant  ! Plant GO slim
+subset: gosubset_prok  ! Prokaryotic GO subset
+synonym: "cell growth and/or maintenance" NARROW []
+synonym: "cell physiology" EXACT []
+synonym: "cellular physiological process" EXACT []
+is_a: GO:0008150  ! biological_process
+
+[Term]
+id: GO:0017144
+name: drug metabolic process
+namespace: biological_process
+def: "The chemical reactions and pathways involving a drug, a substance used in the diagnosis, treatment or prevention of a disease; as used here antibiotic substances (see antibiotic metabolism) are considered to be drugs, even if not used in medical or veterinary practice." [GOC:cab2]
+subset: goslim_pir  ! PIR GO slim
+subset: gosubset_prok  ! Prokaryotic GO subset
+synonym: "drug metabolism" EXACT []
+xref: Reactome:REACT_100188
+xref: Reactome:REACT_106588
+xref: Reactome:REACT_109592
+xref: Reactome:REACT_110347
+xref: Reactome:REACT_163
+xref: Reactome:REACT_54870
+xref: Reactome:REACT_85142
+xref: Reactome:REACT_88376
+xref: Reactome:REACT_92052
+xref: Wikipedia:Drug_metabolism
+is_a: GO:0044237  ! cellular metabolic process
+
+[Term]
+id: GO:0018130
+name: heterocycle biosynthetic process
+namespace: biological_process
+def: "The chemical reactions and pathways resulting in the formation of heterocyclic compounds, those with a cyclic molecular structure and at least two different atoms in the ring (or rings)." [ISBN:0198547684]
+subset: gosubset_prok  ! Prokaryotic GO subset
+synonym: "heterocycle anabolism" EXACT []
+synonym: "heterocycle biosynthesis" EXACT []
+synonym: "heterocycle formation" EXACT []
+synonym: "heterocycle synthesis" EXACT []
+is_a: GO:0044249  ! cellular biosynthetic process
+is_a: GO:0046483  ! heterocycle metabolic process
+
+[Term]
+id: GO:0034641
+name: cellular nitrogen compound metabolic process
+namespace: biological_process
+def: "The chemical reactions and pathways involving various organic and inorganic nitrogenous compounds, as carried out by individual cells." [GOC:mah]
+subset: goslim_generic  ! Generic GO slim
+subset: gosubset_prok  ! Prokaryotic GO subset
+synonym: "cellular nitrogen compound metabolism" EXACT []
+xref: Reactome:REACT_102000
+xref: Reactome:REACT_103710
+xref: Reactome:REACT_107293
+xref: Reactome:REACT_108179
+xref: Reactome:REACT_109042
+xref: Reactome:REACT_13
+xref: Reactome:REACT_28699
+xref: Reactome:REACT_29108
+xref: Reactome:REACT_32429
+xref: Reactome:REACT_33347
+xref: Reactome:REACT_34326
+xref: Reactome:REACT_55564
+xref: Reactome:REACT_77741
+xref: Reactome:REACT_82379
+xref: Reactome:REACT_86268
+xref: Reactome:REACT_90299
+xref: Reactome:REACT_91959
+xref: Reactome:REACT_93580
+xref: Reactome:REACT_95666
+xref: Reactome:REACT_98086
+xref: Reactome:REACT_99241
+is_a: GO:0006807  ! nitrogen compound metabolic process
+is_a: GO:0044237  ! cellular metabolic process
+
+[Term]
+id: GO:0042737
+name: drug catabolic process
+namespace: biological_process
+def: "The chemical reactions and pathways resulting in the breakdown of a drug, a substance used in the diagnosis, treatment or prevention of a disease." [GOC:go_curators]
+subset: gosubset_prok  ! Prokaryotic GO subset
+synonym: "drug breakdown" EXACT []
+synonym: "drug catabolism" EXACT []
+synonym: "drug degradation" EXACT []
+is_a: GO:0017144  ! drug metabolic process
+is_a: GO:0044248  ! cellular catabolic process
+
+[Term]
+id: GO:0044237
+name: cellular metabolic process
+namespace: biological_process
+def: "The chemical reactions and pathways by which individual cells transform chemical substances." [GOC:go_curators]
+subset: goslim_pir  ! PIR GO slim
+subset: gosubset_prok  ! Prokaryotic GO subset
+synonym: "cellular metabolism" EXACT []
+synonym: "intermediary metabolism" RELATED [GOC:mah]
+is_a: GO:0008152  ! metabolic process
+is_a: GO:0009987  ! cellular process
+
+[Term]
+id: GO:0044248
+name: cellular catabolic process
+namespace: biological_process
+def: "The chemical reactions and pathways resulting in the breakdown of substances, carried out by individual cells." [GOC:jl]
+subset: gosubset_prok  ! Prokaryotic GO subset
+synonym: "cellular breakdown" EXACT []
+synonym: "cellular catabolism" EXACT []
+synonym: "cellular degradation" EXACT []
+is_a: GO:0009056  ! catabolic process
+is_a: GO:0044237  ! cellular metabolic process
+
+[Term]
+id: GO:0044249
+name: cellular biosynthetic process
+namespace: biological_process
+def: "The chemical reactions and pathways resulting in the formation of substances, carried out by individual cells." [GOC:jl]
+subset: gosubset_prok  ! Prokaryotic GO subset
+synonym: "cellular anabolism" EXACT []
+synonym: "cellular biosynthesis" EXACT []
+synonym: "cellular formation" EXACT []
+synonym: "cellular synthesis" EXACT []
+is_a: GO:0009058  ! biosynthetic process
+is_a: GO:0044237  ! cellular metabolic process
+
+[Term]
+id: GO:0044270
+name: cellular nitrogen compound catabolic process
+namespace: biological_process
+def: "The chemical reactions and pathways resulting in the breakdown of organic and inorganic nitrogenous compounds." [GOC:jl, ISBN:0198506732]
+subset: gosubset_prok  ! Prokaryotic GO subset
+synonym: "nitrogen compound breakdown" BROAD []
+synonym: "nitrogen compound catabolism" BROAD []
+synonym: "nitrogen compound degradation" BROAD []
+is_a: GO:0034641  ! cellular nitrogen compound metabolic process
+is_a: GO:0044248  ! cellular catabolic process
+
+[Term]
+id: GO:0044271
+name: cellular nitrogen compound biosynthetic process
+namespace: biological_process
+def: "The chemical reactions and pathways resulting in the formation of organic and inorganic nitrogenous compounds." [GOC:jl, ISBN:0198506732]
+subset: gosubset_prok  ! Prokaryotic GO subset
+synonym: "nitrogen compound anabolism" BROAD []
+synonym: "nitrogen compound biosynthesis" BROAD []
+synonym: "nitrogen compound formation" BROAD []
+synonym: "nitrogen compound synthesis" BROAD []
+is_a: GO:0034641  ! cellular nitrogen compound metabolic process
+is_a: GO:0044249  ! cellular biosynthetic process
+
+[Term]
+id: GO:0046448
+name: tropane alkaloid metabolic process
+namespace: biological_process
+def: "The chemical reactions and pathways involving tropane alkaloids, compounds containing the 8-methyl-8-azabicyclo(3.2.1)octane ring system." [GOC:ai, ISBN:0198506732]
+subset: gosubset_prok  ! Prokaryotic GO subset
+synonym: "tropane alkaloid metabolism" EXACT []
+is_a: GO:0009820  ! alkaloid metabolic process
+is_a: GO:0046483  ! heterocycle metabolic process
+
+[Term]
+id: GO:0046483
+name: heterocycle metabolic process
+namespace: biological_process
+def: "The chemical reactions and pathways involving heterocyclic compounds, those with a cyclic molecular structure and at least two different atoms in the ring (or rings)." [ISBN:0198506732]
+subset: goslim_pir  ! PIR GO slim
+subset: gosubset_prok  ! Prokaryotic GO subset
+synonym: "heterocycle metabolism" EXACT []
+is_a: GO:0044237  ! cellular metabolic process
+
+[Term]
+id: GO:0046700
+name: heterocycle catabolic process
+namespace: biological_process
+def: "The chemical reactions and pathways resulting in the breakdown of heterocyclic compounds, those with a cyclic molecular structure and at least two different atoms in the ring (or rings)." [GOC:ai]
+subset: gosubset_prok  ! Prokaryotic GO subset
+synonym: "heterocycle breakdown" EXACT []
+synonym: "heterocycle catabolism" EXACT []
+synonym: "heterocycle degradation" EXACT []
+is_a: GO:0044248  ! cellular catabolic process
+is_a: GO:0046483  ! heterocycle metabolic process
+
+[Term]
+id: GO:0050783
+name: cocaine metabolic process
+namespace: biological_process
+def: "The chemical reactions and pathways involving cocaine, an alkaloid obtained from the dried leaves of the shrub Erythroxylon coca. It is a cerebral stimulant and narcotic." [ISBN:0198506732]
+subset: gosubset_prok  ! Prokaryotic GO subset
+synonym: "cocaine metabolism" EXACT []
+is_a: GO:0017144  ! drug metabolic process
+is_a: GO:0046448  ! tropane alkaloid metabolic process
+
+[Term]
+id: GO:0050784
+name: cocaine catabolic process
+namespace: biological_process
+def: "The chemical reactions and pathways resulting in the breakdown of cocaine, an alkaloid obtained from the dried leaves of the shrub Erythroxylon coca. It is a cerebral stimulant and narcotic." [ISBN:0198506732]
+subset: gosubset_prok  ! Prokaryotic GO subset
+synonym: "cocaine breakdown" EXACT []
+synonym: "cocaine catabolism" EXACT []
+synonym: "cocaine degradation" EXACT []
+is_a: GO:0009822  ! alkaloid catabolic process
+is_a: GO:0042737  ! drug catabolic process
+is_a: GO:0046700  ! heterocycle catabolic process
+is_a: GO:0050783  ! cocaine metabolic process
+
+[Term]
+id: GO:0050799
+name: cocaine biosynthetic process
+namespace: biological_process
+def: "The chemical reactions and pathways resulting in the formation of cocaine, an alkaloid obtained from the dried leaves of the shrub Erythroxylon coca. It is a cerebral stimulant and narcotic." [GOC:ai]
+subset: gosubset_prok  ! Prokaryotic GO subset
+synonym: "cocaine anabolism" EXACT []
+synonym: "cocaine biosynthesis" EXACT []
+synonym: "cocaine formation" EXACT []
+synonym: "cocaine synthesis" EXACT []
+is_a: GO:0009710  ! tropane alkaloid biosynthetic process
+is_a: GO:0050783  ! cocaine metabolic process
+
