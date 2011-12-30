@@ -21,6 +21,8 @@ Instructions:
 # Note: don't manually place these in the hierarchy, let the reasoner do this
 
 # Create a "transgenic hybrid" class, such as a fly-human - which is both a Drosophila and a human. What happens to this when you classify?
+# try using the explanations feature (the "?").
+ # Hint: the explanation is more compact if you choose two sibling taxa - e.g. Deuterostome and Protostome
 
 # Remove the hybrid class. Try creating one or more of the following paraphyletic classes. This will involve the "not" construct
  # Invertebrate
