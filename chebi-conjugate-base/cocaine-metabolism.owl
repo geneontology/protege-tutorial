@@ -761,7 +761,6 @@
     <owl:Class rdf:about="&obo;GO_0050783">
         <rdfs:label rdf:datatype="&xsd;string">cocaine metabolic process</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;GO_0017144"/>
-        <rdfs:subClassOf rdf:resource="&obo;GO_0046448"/>
         <oboInOwl:id rdf:datatype="&xsd;string">GO:0050783</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways involving cocaine, an alkaloid obtained from the dried leaves of the shrub Erythroxylon coca. It is a cerebral stimulant and narcotic.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>

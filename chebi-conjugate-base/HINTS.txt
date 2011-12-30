@@ -1,2 +1,22 @@
 
 Explore the imports chain. Which ontologies are imported? What are the contents of the bio-chebi.owl ontology?
+
+This is the current asserted structure of GO:
+
+   is_a GO:0006807 ! nitrogen compound metabolic process
+    is_a GO:0009820 ! alkaloid metabolic process
+     is_a GO:0046448 ! tropane alkaloid metabolic process
+      is_a GO:0050783 ! cocaine metabolic process *** 
+
+  is_a GO:0008152 ! metabolic process
+   is_a GO:0044237 ! cellular metabolic process
+    is_a GO:0017144 ! drug metabolic process
+     is_a GO:0050783 ! cocaine metabolic process *** 
+
+  is_a GO:0008152 ! metabolic process
+   is_a GO:0044237 ! cellular metabolic process
+    is_a GO:0046483 ! heterocycle metabolic process
+     is_a GO:0046448 ! tropane alkaloid metabolic process
+      is_a GO:0050783 ! cocaine metabolic process *** 
+
+

@@ -1,0 +1,6 @@
+This tutorial ontology was constructed as follows:
+
+# taking the cocain metabolism subset of GO
+# adding logical definitions for terms except the concaine ones
+# removing assertions:
+  # cocaine process and tropane alkaloid
