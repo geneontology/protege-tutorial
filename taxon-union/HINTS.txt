@@ -1,0 +1,22 @@
+
+The ontology contains the axiom
+
+ "Nematoda or Protostomia" EquivalentTo Nematoda or Protostomia
+
+Which is to say that the set of things called "nematoda or
+protostomia" is identical to the combination of the set of nematodes
+and the set of protostomes.
+
+Since every member of that combined set is necessarily a bilaterian,
+then the class "Nematoda or Protostomia" is a subclass of Bilateria.
+
+When creating your own classes:
+
+# add a class under "Thing"
+# name it
+# Click + on "Equivalence Axioms"
+# type an expression (e.g. "foo or bar or baz") - remember single quotes if there are spaces
+
+Hints for excluding taxa:
+
+Use the keyword "not" to exclude a class. E.g. "(a or b) and (not z) and (not y)"
