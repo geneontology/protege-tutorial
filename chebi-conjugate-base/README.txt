@@ -11,7 +11,16 @@ Inputs:
 
 Instructions:
 
-# Examine the asserted hierarchy. Ignore cocaine and sinapate terms for now.
+# Examine the CHEBI hierarchy. Find the following classes and navigate to neighboring classes:
+ # cocaine
+ # sinapate
+ # HINT: use the box in the top right corner
+# Are either of the above:
+ # drugs?
+ # aromatic compounds?
+# HINT: see the png files in this directory
+
+# Examine the asserted GO hierarchy. Ignore cocaine and sinapate terms for now.
 # Set reasoner to Elk and classify
 # Examine the inferred hierarchy. Does it look correct?
 
