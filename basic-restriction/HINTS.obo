@@ -1,0 +1,12 @@
+
+[Term]
+id: GO:0031205
+name: endoplasmic reticulum Sec complex
+namespace: cellular_component
+def: "An endoplasmic reticulum membrane-associated complex involved in the translocation of proteins that are targeted to the ER. In yeast, this complex consists of two subcomplexes, namely, the Sec61 complex and the Sec62/Sec63 complex." [GOC:mtg_sensu, PMID:12158317, PMID:14617809]
+subset: goslim_pir  ! PIR GO slim
+is_a: GO:0043234  ! protein complex
+is_a: GO:0044425  ! membrane part
+is_a: GO:0044432  ! endoplasmic reticulum part
+relationship: has_part GO:0005784 ! Sec61 translocon complex
+relationship: part_of GO:0030867 ! rough endoplasmic reticulum membrane
