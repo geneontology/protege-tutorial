@@ -1,0 +1,34 @@
+
+[Term]
+id: GO:0005657
+name: replication fork
+namespace: cellular_component
+def: "The Y-shaped region of a replicating DNA molecule, resulting from the separation of the DNA strands and in which the synthesis of new strands takes place. Also includes associated protein complexes." [GOC:mah, ISBN:0198547684]
+subset: gosubset_prok  ! Prokaryotic GO subset
+synonym: "replication focus" RELATED []
+xref: Wikipedia:Replication_fork
+is_a: GO:0044427  ! chromosomal part
+
+[Term]
+id: GO:0035861
+name: site of double-strand break
+namespace: cellular_component
+def: "A region of a chromosome at which a DNA double-strand break has occurred. DNA damage signaling and repair proteins accumulate at the lesion to respond to the damage and repair the DNA to form a continuous DNA helix." [GOC:bf, GOC:mah, GOC:vw, PMID:20096808, PMID:21035408]
+synonym: "DNA damage foci" RELATED [GOC:vw]
+synonym: "DNA damage focus" RELATED [GOC:mah, PMID:20096808, PMID:21035408]
+synonym: "IRIF" RELATED [PMID:20096808, PMID:21035408]
+synonym: "ionizing radiation-induced foci" RELATED [PMID:20096808, PMID:21035408]
+synonym: "site of DSB" EXACT [PMID:21035408]
+is_a: GO:0044427  ! chromosomal part
+
+
+[Term]
+id: GO:0043232
+name: intracellular non-membrane-bounded organelle
+namespace: cellular_component
+def: "Organized structure of distinctive morphology and function, not bounded by a lipid bilayer membrane and occurring within the cell. Includes ribosomes, the cytoskeleton and chromosomes." [GOC:go_curators]
+subset: goslim_pir  ! PIR GO slim
+subset: gosubset_prok  ! Prokaryotic GO subset
+synonym: "intracellular non-membrane-enclosed organelle" EXACT []
+is_a: GO:0043228  ! non-membrane-bounded organelle
+is_a: GO:0043229  ! intracellular organelle
