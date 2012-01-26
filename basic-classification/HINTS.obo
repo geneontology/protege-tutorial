@@ -1,0 +1,21 @@
+
+
+[Term]
+id: GO:0000152
+name: nuclear ubiquitin ligase complex
+namespace: cellular_component
+def: "A ubiquitin ligase complex found in the nucleus." [GOC:mah]
+is_a: GO:0000151  ! ubiquitin ligase complex
+is_a: GO:0044428  ! nuclear part
+intersection_of: GO:0000151  ! ubiquitin ligase complex
+intersection_of: part_of GO:0005634 ! nucleus
+
+[Term]
+id: GO:0000153
+name: cytoplasmic ubiquitin ligase complex
+namespace: cellular_component
+def: "A ubiquitin ligase complex found in the cytoplasm." [GOC:mah]
+is_a: GO:0000151  ! ubiquitin ligase complex
+is_a: GO:0044444  ! cytoplasmic part
+intersection_of: GO:0000151  ! ubiquitin ligase complex
+intersection_of: part_of GO:0005737 ! cytoplasm
