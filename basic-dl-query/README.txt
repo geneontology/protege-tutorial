@@ -1,12 +1,16 @@
 This illustrates basic DL queries
 
+Constructs used:
+
+  "and", "some"
+
 # open cc.owl
 # Turn on hermit
 # go to DL query tab
 # find all subtypes of chromosome
 # experiment with the tab - what do the different checkboxes give you?
-# find all parts of the nucleus
-# find all chromosomes that are part of the nucleus
+# find all parts of a cytoplasm
+# find all chromosomes that are part of a cytoplasm
 
 NEXT:
 

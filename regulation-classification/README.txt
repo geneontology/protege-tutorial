@@ -13,7 +13,6 @@ This example teaches the use of basic classification using reasoners and logical
  # if not, why not? Is this what you would expect to see?
 # Add an axiom to get the reasoner to classify "regulation of mitosis" as a subclass of "regulation of M phase of mitotic cell cycle"?
  # this is hard - see HINTS.txt if you get stuck
-NOTE TO SELF - this ontology currently imports RO so the axiom is already there...
 
 Optional:
 

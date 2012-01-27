@@ -5,6 +5,8 @@ If you want it to be the case that
     b part of c
  THEN a regulates c
 
-Then you need to add a property chain
+Then you need to add a property chain for regulates
+
+ regulates o part_of -> regulates
 
 
