@@ -15,7 +15,7 @@ Adding new classes (basic):
 
 # Add the term "replication fork" to the ontology under "chromosomal part"
  # don't worry about the ID
- # See the file "removed.obo" or the existing GO for the exact values
+ # See the file "HINTS.obo" or the existing GO for the exact values
  # Add a text definition
   # Add 2 def dbxrefs to the text definition
  # Add a related synonym
@@ -31,10 +31,3 @@ Moving around classes:
 
 # Add the term "intracellular non-membrane-bounded organelle"
 # this should go *between* chromosome and non-membrane organelle and intracellular organelle part
- 
-namespace: cellular_component
-def: "The Y-shaped region of a replicating DNA molecule, resulting from the separation of the DNA strands and in which the synthesis of new strands takes place. Also includes associated protein complexes." [GOC:mah, ISBN:0198547684]
-subset: gosubset_prok  ! Prokaryotic GO subset
-synonym: "replication focus" RELATED []
-xref: Wikipedia:Replication_fork
-is_a: GO:0044427  ! chromosomal part
