@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ro.owl" uri="../external/obo-relations/ro-edit.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/extensions/stimulus.owl" uri="stimulus.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1327611018403" name="http://purl.obolibrary.org/obo/go.owl" uri="response.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1327611018403" name="http://purl.obolibrary.org/obo/go/extensions/stimulus.owl" uri="stimulus.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1327611018403" name="http://purl.obolibrary.org/obo/go/tutorial/response.owl" uri="response-original.owl"/>
+    </group>
+</catalog>
