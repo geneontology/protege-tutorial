@@ -1,7 +1,7 @@
 This example illustrates the use of disjointness axioms to catch
 errors in the ontology.
 
-Constructs illustrates:
+Constructs illustrated:
 
  * Disjoint classes
 

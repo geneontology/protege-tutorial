@@ -15,7 +15,8 @@ When creating your own classes:
 # add a class under "Thing"
 # name it
 # Click + on "Equivalence Axioms"
-# type an expression (e.g. "foo or bar or baz") - remember single quotes if there are spaces
+# type an expression. remembering single quotes around classes that have spaces. Example:
+  'Drosophila melanogaster' or Fungi
 
 Hints for excluding taxa:
 

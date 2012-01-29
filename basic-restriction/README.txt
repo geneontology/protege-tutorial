@@ -1,7 +1,15 @@
-This example illustrates basic existential restrictions combined with subclass.
+This example illustrates how to use object properies to make
+existential restrictions.
 
-Example: "every finger is part of some hand" is represented as
+In OWL, it helps to think in terms of the set of entities represented
+by each class. To say: "every finger is part of a hand" we say:
+
   finger SubClassOf part_of some hand
+
+The anonymous class expression "part_of some hand" represents the set
+of all instances that have a part_of relationship to a hand. Every
+member of the set of all fingers is a member of the set of all things
+that are part of a hand.
 
 Instructions:
 

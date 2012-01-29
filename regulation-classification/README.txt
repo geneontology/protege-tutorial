@@ -1,4 +1,4 @@
-This example teaches the use of basic classification using reasoners and logical definitions
+This example teaches the classification combined with property chains
 
 # open mitosis.owl
 # create regulation terms for:
