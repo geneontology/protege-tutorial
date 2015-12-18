@@ -1,4 +1,4 @@
-Instructions:
+# Instructions
 
 We will work through the examples in this directory. Each section
 introduces new constructs and/or concepts.
@@ -95,6 +95,15 @@ Suggested Order:
     Uses Reasoner: Hermit
     Requires: OE 2.1.1beta4 or higher
      
+# Acknowledgements and Rights
 
+This tutorial was developed by:
 
+ * David Osumi-Sutherland
+ * Simon Jupp
+ * Chris Mungall
+
+It is available under a CC-BY license, please credit the authors if you reuse. You can also cite the following DOI:
+
+[![DOI](https://zenodo.org/badge/13996/geneontology/protege-tutorial.svg)](https://zenodo.org/badge/latestdoi/13996/geneontology/protege-tutorial)
 
