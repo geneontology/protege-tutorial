@@ -111,12 +111,6 @@ Suggested Order:
     Task: create spatial disjointness axioms without the use of helper "X part" classes
     Constructs: General Axioms
     Uses Reasoner: Hermit
-
- * [obo-owl-classification](obo-owl-classification)
-
-    Task: edit an ontology in OE and classify in Elk
-    Uses Reasoner: Hermit
-    Requires: OE 2.1.1beta4 or higher
      
 # Acknowledgements and Rights
 
