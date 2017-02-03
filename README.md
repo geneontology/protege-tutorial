@@ -1,3 +1,26 @@
+# GO OWL/Protege Tutorial 2017
+
+Welcome! This repository contains material for the course to be held at Berkeley Lab Feb 22-24.
+
+Most of the material here is recycled from a course held at EBI in 2013 and led by David Osumi-Sutherland, Simon Jupp and Chris Mungall. This 2017 course will be led by Chris Mungall and David Hill. A logistics page will be posted shortly.
+
+# Pre-meeting Preparation
+
+ 1. Download Protege from http://protege.stanford.edu (you should have 5.1.0 for this course)
+ 2. Install plugins
+      * http://wiki.geneontology.org/index.php/Protege_setup_for_GO_Eds (a bit out of date)
+      * http://wiki.geneontology.org/index.php/Ontology_editor_plugins
+ 3. Do some light reading (see below)
+ 
+## Readling List
+
+Mungall, C. J., Dietze, H., & Osumi-Sutherland, D. (2014). __Use of OWL within the Gene Ontology__. *In M. Keet & V. Tamma (Eds.), Proceedings of the 11th International Workshop on OWL: Experiences and Directions (OWLED 2014) (pp. 25–36). Riva del Garda, Italy, October 17-18, 2014.* http://doi.org/10.1101/010090
+
+Pizza Tutorial http://owl.cs.manchester.ac.uk/publications/talks-and-tutorials/protg-owl-tutorial/ (this is an __excellent__ general purpose intro, some of our material is inspired by this)
+
+OWL Primer (advanced) https://www.w3.org/TR/owl-primer/
+
+
 # Instructions
 
 We will work through the examples in this directory. Each section
