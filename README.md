@@ -84,13 +84,6 @@ Suggested Order:
     Uses reasoner: Hermit
     Ontology: NCBITaxon (subset)
 
- * [occurs-in](occurs-in)
-
-    Note: the instructor may use this one as an example
-    Task: examine how to compose relations to get desired inferences
-    Constructs: property chains
-    Uses Reasoner: Hermit
-    Ontology: BP and CC (subset)
 
  * [regulation-classification](regulation-classification)
 

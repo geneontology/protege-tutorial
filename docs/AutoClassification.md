@@ -13,11 +13,6 @@ Go to [taxon-union](taxon-union) folder
 
 This introduces classification using “or” and “not”
 
-Property chains
-===============
-
-Go to “occurs-in” folder and open “occurs-in-no-property-chain.owl”
-
 ### Do a DL query for cell cycle processes that occur in a nucleus – note there is only one result:
 
 
@@ -61,7 +56,6 @@ NOTE: this may be broken in P4.1?
 
 ![](./media/image63.emf)
 
-EXERCISE: regulation-classification
-===================================
+## EXERCISE: regulation-classification
 
-Go to the basic-regulation folder and follow the instructions in the README.txt
+Go to the [regulation-classification](../regulation-classification/) folder and follow the instructions in the README
