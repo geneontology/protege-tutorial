@@ -13,7 +13,7 @@ Some examples of imports can be found in
 
 ## EXERCISE: response to stimulus
 
-Go to the [response-to-stimulus](../response-to-stimulus) directory and follow the README.txt
+Go to the [response-to-stimulus](https://github.com/geneontology/protege-tutorial/tree/master/response-to-stimulus) directory and follow the README.txt
 
 This example makes use of a small ontology called STIMO – the stimulus ontology.
 

@@ -40,4 +40,4 @@ Remove the axiom, and resynchronise the reasoner from the reasoner menu.
 
 ## EXERCISE: Basic Disjoint
 
-Go to the [basic-disjoint](../basic-disjoint) folder in the tutorial directory and follow the instructions in the README
+Go to the [basic-disjoint](https://github.com/geneontology/protege-tutorial/tree/master/basic-disjoint) folder in the tutorial directory and follow the instructions in the README

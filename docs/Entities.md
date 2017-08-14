@@ -102,6 +102,6 @@ After you have become familiar, you can save your efforts or discard them – yo
 
 ## EXERCISE: Basic Subclass Hierarchy
 
-Go to the directory [basic-subclass](../basic-subclass) in the tutorial folder and open chromosome-parts.owl
+Go to the directory [basic-subclass](https://github.com/geneontology/protege-tutorial/tree/master/basic-subclass) in the tutorial folder and open chromosome-parts.owl
 
 Follow the instructions in the README.md file

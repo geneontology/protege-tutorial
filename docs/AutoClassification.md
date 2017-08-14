@@ -3,7 +3,7 @@ Automatic classification
 
 ## EXERCISE: Basic classification
 
-Go to the [basic-classification](../basic-classification) folder and follow the instructions in the README.txt
+Go to the [basic-classification](https://github.com/geneontology/protege-tutorial/tree/master/basic-classification) folder and follow the instructions in the README.txt
 
 ## EXERCISE: Classification using Unions
 
@@ -58,4 +58,4 @@ NOTE: this may be broken in P4.1?
 
 ## EXERCISE: regulation-classification
 
-Go to the [regulation-classification](../regulation-classification/) folder and follow the instructions in the README
+Go to the [regulation-classification](https://github.com/geneontology/protege-tutorial/tree/master/regulation-classification/) folder and follow the instructions in the README

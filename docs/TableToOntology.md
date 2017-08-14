@@ -1,7 +1,7 @@
 Making Ontologies from Spreadsheets and templates (Optional)
 =================================================
 
-Go to the [template-examples](../template-examples) folder
+Go to the [template-examples](https://github.com/geneontology/protege-tutorial/tree/master/template-examples) folder
 
 Open “test1.csv” in Excel. This has a sample set of plant traits
 
