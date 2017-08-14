@@ -21,11 +21,11 @@ You will also want to save this ontology file to your hard disk. Use the next di
 The Protégé UI
 --------------
 
-After a few seconds Protégé will launch into the main user interface. The protégé interface follows a basic paradigm of Tabs and Panels. The layout of tabs and panels is configurable by the user. By default protégé launches with 5 main tabs.
+After a few second Protégé will launch into the main user interface. The Protégé interface follows a basic paradigm of Tabs and Panels. The layout of tabs and panels is configurable by the user. By default Protégé launches with 5 main tabs.
 
 ![](./media/image4.png)
 
-The first tab you see is the Active Ontology tab. Here you will find some basic meta-data about the ontology you are viewing. At the very top you see the IRI and file name of the active ontology you are viewing. Protégé allows you to work with multiple ontologies at once (See later), so this top bar is very important as it lets you know which ontology you are viewing and editing.
+The first tab you see is the Active Ontology tab. Here you will find some basic meta-data about the ontology you are viewing. At the very top you see the IRI and file name of the active ontology you are viewing. Protégé allows you to work with multiple ontologies at once (see later), so this top bar is very important as it lets you know which ontology you are viewing and editing.
 
 ![](./media/image5.png)
 
