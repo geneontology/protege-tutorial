@@ -79,8 +79,7 @@ Drop the view over the class description view.
 
 Select the ‘part of’ property to render your partonomy in the existential tree panel.
 
-EXERCISE: Basic Restrictions
-============================
+## EXERCISE: Basic Restrictions
 
 Stay in the “basic-restriction” folder in the tutorial directory and follow the instructions in the README.txt
 
