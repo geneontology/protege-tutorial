@@ -3,7 +3,21 @@ Initial Preparation
 
 ### GitHub Login
 
-Obtain a login at GitHub (https://github.com/) and send Laurel your login name so you can be added to the GO Organization (https://github.com/geneontology).  This is our repository for ontology files and issue trackers.
+Obtain a login at GitHub (<https://github.com/>) and send your login name so you can be added to the GO Organization (<https://github.com/geneontology>). This is our repository for ontology files and issue trackers.
+
+### Clone this repository
+
+Visit <https://github.com/geneontology/protege-tutorial>
+
+click "Clone or Download"
+
+This will give you a URL you can use
+
+```
+git clone https://github.com/geneontology/protege-tutorial.git
+```
+
+These files will be under `protege-tutorial` on your drive.
 
 ### Install Protege 5 for Ontology Development
 
