@@ -1,10 +1,16 @@
 # GO OWL/Protege Tutorial 2017
 
-Welcome! This repository contains material for the course to be held at Berkeley Lab Feb 22-24.
+Welcome! This repository contains material for [GO editors course](http://wiki.geneontology.org/index.php/2017_Berkeley_GO_Editors_Workshop_II) to be held at Berkeley Lab August 2017
 
-Most of the material here is recycled from a course held at EBI in 2013 and led by David Osumi-Sutherland, Simon Jupp and Chris Mungall. This 2017 course will be led by Chris Mungall and David Hill. A logistics page will be posted shortly.
+Most of the material here is recycled from a course held at EBI in 2013 and led by David Osumi-Sutherland, Simon Jupp and Chris Mungall. This 2017 course will be led by Chris Mungall and David Osumi-Sutherland. 
 
-# Pre-meeting Preparation
+# Tutorial
+
+[go-protege-tutorial on Read The Docs](http://go-protege-tutorial.readthedocs.io/)
+
+# Quick Start
+
+## Pre-meeting Preparation
 
  1. Download Protege from http://protege.stanford.edu (you should have 5.1.0 for this course)
  2. Install plugins
@@ -12,7 +18,7 @@ Most of the material here is recycled from a course held at EBI in 2013 and led 
       * http://wiki.geneontology.org/index.php/Ontology_editor_plugins
  3. Do some light reading (see below)
  
-## Readling List
+# Readling List
 
 Mungall, C. J., Dietze, H., & Osumi-Sutherland, D. (2014). __Use of OWL within the Gene Ontology__. *In M. Keet & V. Tamma (Eds.), Proceedings of the 11th International Workshop on OWL: Experiences and Directions (OWLED 2014) (pp. 25–36). Riva del Garda, Italy, October 17-18, 2014.* http://doi.org/10.1101/010090
 
@@ -28,8 +34,11 @@ introduces new constructs and/or concepts.
 
 For each section, the instructor will first demonstrate some
 examples. The students will then follow the instructions in the
-README.txt file for the section. After completion, the students can
+README file for the section. After completion, the students can
 exchange OWL files and review one another's work.
+
+Introductory material can be found in each section of the 
+[go-protege-tutorial](http://go-protege-tutorial.readthedocs.io/)
 
 Suggested Order:
 
