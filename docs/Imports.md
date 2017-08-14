@@ -11,12 +11,11 @@ Some examples of imports can be found in
 
 <http://wiki.geneontology.org/index.php/Ontology_extensions>
 
-EXERCISE: response to stimulus
-==============================
+## EXERCISE: response to stimulus
 
-Go to the response-to-stimulus directory and follow the README.txt
+Go to the [response-to-stimulus](../response-to-stimulus) directory and follow the README.txt
 
-This example makes use of a small ontology (currently maintained in the GO svn repository, and also present in the tutorial directory) called STIMO – the stimulus ontology.
+This example makes use of a small ontology called STIMO – the stimulus ontology.
 
 ![](./media/image65.png)
 

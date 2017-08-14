@@ -38,9 +38,8 @@ This is illustrated by the red area in the following Venn diagram:
 
 ![](./media/image54.emf)
 
-EXERCISE: Basic DL Queries
-==========================
+## EXERCISE: Basic DL Queries
 
-Go to the “basic-dl-query” folder in the tutorial directory and follow the instructions in the README.txt
+Go to the [basic-dl-query](../basic-dl-query) folder in the tutorial directory and follow the instructions in the README.txt
 
 
