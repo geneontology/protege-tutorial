@@ -1,0 +1,21 @@
+iri,label,entity,entity label,quality,quality label
+DEMOTRAIT_0000002,seed morphology,PO_0009010,seed,PATO_0000051,morphology
+DEMOTRAIT_0000003,seed shape,PO_0009010,seed,PATO_0000052,shape
+DEMOTRAIT_0000004,seed size,PO_0009010,seed,PATO_0000117,size
+DEMOTRAIT_0000005,seed weight,PO_0009010,seed,PATO_0000128,weight
+DEMOTRAIT_0000007,morphology,PO_0009011,plant structure,PATO_0000051,morphology
+DEMOTRAIT_0000008,shape,PO_0009011,plant structure,PATO_0000052,shape
+DEMOTRAIT_0000009,size,PO_0009011,plant structure,PATO_0000117,size
+DEMOTRAIT_0000010,weight,PO_0009011,plant structure,PATO_0000128,weight
+DEMOTRAIT_0000012,leaf morphology,PO_0009025,vascular leaf,PATO_0000051,morphology
+DEMOTRAIT_0000013,leaf shape,PO_0009025,vascular leaf,PATO_0000052,shape
+DEMOTRAIT_0000014,leaf size,PO_0009025,vascular leaf,PATO_0000117,size
+DEMOTRAIT_0000015,leaf weight,PO_0009025,vascular leaf,PATO_0000128,weight
+DEMOTRAIT_0000017,flower morphology,PO_0009046,flower,PATO_0000051,morphology
+DEMOTRAIT_0000018,flower shape,PO_0009046,flower,PATO_0000052,shape
+DEMOTRAIT_0000019,flower size,PO_0009046,flower,PATO_0000117,size
+DEMOTRAIT_0000020,flower weight,PO_0009046,flower,PATO_0000128,weight
+DEMOTRAIT_0000022,perianth morphology,PO_0009058,perianth,PATO_0000051,morphology
+DEMOTRAIT_0000023,perianth shape,PO_0009058,perianth,PATO_0000052,shape
+DEMOTRAIT_0000024,perianth size,PO_0009058,perianth,PATO_0000117,size
+DEMOTRAIT_0000025,perianth weight,PO_0009058,perianth,PATO_0000128,weight

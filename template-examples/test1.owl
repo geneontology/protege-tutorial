@@ -1,0 +1,180 @@
+Prefix: : <http://purl.obolibrary.org/obo/>
+Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
+Prefix: DOSDP: <http://geneontology.org/foo/>
+
+ ## Auto-generated
+
+Ontology: <http://purl.obolibrary.org/obo/auto>
+  Import: <http://purl.obolibrary.org/obo/po-slim.owl>
+  Import: <http://purl.obolibrary.org/obo/pato-slim.owl>
+  Import: <http://purl.obolibrary.org/obo/ro-slim.owl>
+  Import: <http://purl.obolibrary.org/obo/to-slim.owl>
+AnnotationProperty: IAO:0000115
+AnnotationProperty: planteome/tutorial/simple_measurable/entity
+AnnotationProperty: planteome/tutorial/simple_measurable/quality
+AnnotationProperty: DOSDP:applies-pattern
+Class: TO_0000387 ## plant trait
+Class: PATO_0000001 ## quality
+ObjectProperty: <http://purl.obolibrary.org/obo/oba#affects_quality> ## affects quality
+ObjectProperty: BFO_0000066 ## occurs in
+## Auto-generated classes
+
+Class: PO_0009010 ## seed
+Class: PATO_0000051 ## morphology
+## {"entity": "PO_0009010", "quality": "PATO_0000051"}
+Class: DEMOTRAIT_0000002
+ Annotations: rdfs:label "seed morphology"
+ Annotations: IAO:0000115 "Any morphology trait that occurs in a seed."
+ EquivalentTo: TO_0000387 and <http://purl.obolibrary.org/obo/oba#affects_quality> some PATO_0000051 and BFO_0000066 some PO_0009010 ## 'plant trait' and 'affects quality' some morphology and 'occurs in' some seed
+
+Class: PO_0009010 ## seed
+Class: PATO_0000052 ## shape
+## {"entity": "PO_0009010", "quality": "PATO_0000052"}
+Class: DEMOTRAIT_0000003
+ Annotations: rdfs:label "seed shape"
+ Annotations: IAO:0000115 "Any shape trait that occurs in a seed."
+ EquivalentTo: TO_0000387 and <http://purl.obolibrary.org/obo/oba#affects_quality> some PATO_0000052 and BFO_0000066 some PO_0009010 ## 'plant trait' and 'affects quality' some shape and 'occurs in' some seed
+
+Class: PO_0009010 ## seed
+Class: PATO_0000117 ## size
+## {"entity": "PO_0009010", "quality": "PATO_0000117"}
+Class: DEMOTRAIT_0000004
+ Annotations: rdfs:label "seed size"
+ Annotations: IAO:0000115 "Any size trait that occurs in a seed."
+ EquivalentTo: TO_0000387 and <http://purl.obolibrary.org/obo/oba#affects_quality> some PATO_0000117 and BFO_0000066 some PO_0009010 ## 'plant trait' and 'affects quality' some size and 'occurs in' some seed
+
+Class: PO_0009010 ## seed
+Class: PATO_0000128 ## weight
+## {"entity": "PO_0009010", "quality": "PATO_0000128"}
+Class: DEMOTRAIT_0000005
+ Annotations: rdfs:label "seed weight"
+ Annotations: IAO:0000115 "Any weight trait that occurs in a seed."
+ EquivalentTo: TO_0000387 and <http://purl.obolibrary.org/obo/oba#affects_quality> some PATO_0000128 and BFO_0000066 some PO_0009010 ## 'plant trait' and 'affects quality' some weight and 'occurs in' some seed
+
+Class: PO_0009011 ## plant structure
+Class: PATO_0000051 ## morphology
+## {"entity": "PO_0009011", "quality": "PATO_0000051"}
+Class: DEMOTRAIT_0000007
+ Annotations: rdfs:label "plant structure morphology"
+ Annotations: IAO:0000115 "Any morphology trait that occurs in a plant structure."
+ EquivalentTo: TO_0000387 and <http://purl.obolibrary.org/obo/oba#affects_quality> some PATO_0000051 and BFO_0000066 some PO_0009011 ## 'plant trait' and 'affects quality' some morphology and 'occurs in' some plant structure
+
+Class: PO_0009011 ## plant structure
+Class: PATO_0000052 ## shape
+## {"entity": "PO_0009011", "quality": "PATO_0000052"}
+Class: DEMOTRAIT_0000008
+ Annotations: rdfs:label "plant structure shape"
+ Annotations: IAO:0000115 "Any shape trait that occurs in a plant structure."
+ EquivalentTo: TO_0000387 and <http://purl.obolibrary.org/obo/oba#affects_quality> some PATO_0000052 and BFO_0000066 some PO_0009011 ## 'plant trait' and 'affects quality' some shape and 'occurs in' some plant structure
+
+Class: PO_0009011 ## plant structure
+Class: PATO_0000117 ## size
+## {"entity": "PO_0009011", "quality": "PATO_0000117"}
+Class: DEMOTRAIT_0000009
+ Annotations: rdfs:label "plant structure size"
+ Annotations: IAO:0000115 "Any size trait that occurs in a plant structure."
+ EquivalentTo: TO_0000387 and <http://purl.obolibrary.org/obo/oba#affects_quality> some PATO_0000117 and BFO_0000066 some PO_0009011 ## 'plant trait' and 'affects quality' some size and 'occurs in' some plant structure
+
+Class: PO_0009011 ## plant structure
+Class: PATO_0000128 ## weight
+## {"entity": "PO_0009011", "quality": "PATO_0000128"}
+Class: DEMOTRAIT_0000010
+ Annotations: rdfs:label "plant structure weight"
+ Annotations: IAO:0000115 "Any weight trait that occurs in a plant structure."
+ EquivalentTo: TO_0000387 and <http://purl.obolibrary.org/obo/oba#affects_quality> some PATO_0000128 and BFO_0000066 some PO_0009011 ## 'plant trait' and 'affects quality' some weight and 'occurs in' some plant structure
+
+Class: PO_0009025 ## vascular leaf
+Class: PATO_0000051 ## morphology
+## {"entity": "PO_0009025", "quality": "PATO_0000051"}
+Class: DEMOTRAIT_0000012
+ Annotations: rdfs:label "vascular leaf morphology"
+ Annotations: IAO:0000115 "Any morphology trait that occurs in a vascular leaf."
+ EquivalentTo: TO_0000387 and <http://purl.obolibrary.org/obo/oba#affects_quality> some PATO_0000051 and BFO_0000066 some PO_0009025 ## 'plant trait' and 'affects quality' some morphology and 'occurs in' some vascular leaf
+
+Class: PO_0009025 ## vascular leaf
+Class: PATO_0000052 ## shape
+## {"entity": "PO_0009025", "quality": "PATO_0000052"}
+Class: DEMOTRAIT_0000013
+ Annotations: rdfs:label "vascular leaf shape"
+ Annotations: IAO:0000115 "Any shape trait that occurs in a vascular leaf."
+ EquivalentTo: TO_0000387 and <http://purl.obolibrary.org/obo/oba#affects_quality> some PATO_0000052 and BFO_0000066 some PO_0009025 ## 'plant trait' and 'affects quality' some shape and 'occurs in' some vascular leaf
+
+Class: PO_0009025 ## vascular leaf
+Class: PATO_0000117 ## size
+## {"entity": "PO_0009025", "quality": "PATO_0000117"}
+Class: DEMOTRAIT_0000014
+ Annotations: rdfs:label "vascular leaf size"
+ Annotations: IAO:0000115 "Any size trait that occurs in a vascular leaf."
+ EquivalentTo: TO_0000387 and <http://purl.obolibrary.org/obo/oba#affects_quality> some PATO_0000117 and BFO_0000066 some PO_0009025 ## 'plant trait' and 'affects quality' some size and 'occurs in' some vascular leaf
+
+Class: PO_0009025 ## vascular leaf
+Class: PATO_0000128 ## weight
+## {"entity": "PO_0009025", "quality": "PATO_0000128"}
+Class: DEMOTRAIT_0000015
+ Annotations: rdfs:label "vascular leaf weight"
+ Annotations: IAO:0000115 "Any weight trait that occurs in a vascular leaf."
+ EquivalentTo: TO_0000387 and <http://purl.obolibrary.org/obo/oba#affects_quality> some PATO_0000128 and BFO_0000066 some PO_0009025 ## 'plant trait' and 'affects quality' some weight and 'occurs in' some vascular leaf
+
+Class: PO_0009046 ## flower
+Class: PATO_0000051 ## morphology
+## {"entity": "PO_0009046", "quality": "PATO_0000051"}
+Class: DEMOTRAIT_0000017
+ Annotations: rdfs:label "flower morphology"
+ Annotations: IAO:0000115 "Any morphology trait that occurs in a flower."
+ EquivalentTo: TO_0000387 and <http://purl.obolibrary.org/obo/oba#affects_quality> some PATO_0000051 and BFO_0000066 some PO_0009046 ## 'plant trait' and 'affects quality' some morphology and 'occurs in' some flower
+
+Class: PO_0009046 ## flower
+Class: PATO_0000052 ## shape
+## {"entity": "PO_0009046", "quality": "PATO_0000052"}
+Class: DEMOTRAIT_0000018
+ Annotations: rdfs:label "flower shape"
+ Annotations: IAO:0000115 "Any shape trait that occurs in a flower."
+ EquivalentTo: TO_0000387 and <http://purl.obolibrary.org/obo/oba#affects_quality> some PATO_0000052 and BFO_0000066 some PO_0009046 ## 'plant trait' and 'affects quality' some shape and 'occurs in' some flower
+
+Class: PO_0009046 ## flower
+Class: PATO_0000117 ## size
+## {"entity": "PO_0009046", "quality": "PATO_0000117"}
+Class: DEMOTRAIT_0000019
+ Annotations: rdfs:label "flower size"
+ Annotations: IAO:0000115 "Any size trait that occurs in a flower."
+ EquivalentTo: TO_0000387 and <http://purl.obolibrary.org/obo/oba#affects_quality> some PATO_0000117 and BFO_0000066 some PO_0009046 ## 'plant trait' and 'affects quality' some size and 'occurs in' some flower
+
+Class: PO_0009046 ## flower
+Class: PATO_0000128 ## weight
+## {"entity": "PO_0009046", "quality": "PATO_0000128"}
+Class: DEMOTRAIT_0000020
+ Annotations: rdfs:label "flower weight"
+ Annotations: IAO:0000115 "Any weight trait that occurs in a flower."
+ EquivalentTo: TO_0000387 and <http://purl.obolibrary.org/obo/oba#affects_quality> some PATO_0000128 and BFO_0000066 some PO_0009046 ## 'plant trait' and 'affects quality' some weight and 'occurs in' some flower
+
+Class: PO_0009058 ## perianth
+Class: PATO_0000051 ## morphology
+## {"entity": "PO_0009058", "quality": "PATO_0000051"}
+Class: DEMOTRAIT_0000022
+ Annotations: rdfs:label "perianth morphology"
+ Annotations: IAO:0000115 "Any morphology trait that occurs in a perianth."
+ EquivalentTo: TO_0000387 and <http://purl.obolibrary.org/obo/oba#affects_quality> some PATO_0000051 and BFO_0000066 some PO_0009058 ## 'plant trait' and 'affects quality' some morphology and 'occurs in' some perianth
+
+Class: PO_0009058 ## perianth
+Class: PATO_0000052 ## shape
+## {"entity": "PO_0009058", "quality": "PATO_0000052"}
+Class: DEMOTRAIT_0000023
+ Annotations: rdfs:label "perianth shape"
+ Annotations: IAO:0000115 "Any shape trait that occurs in a perianth."
+ EquivalentTo: TO_0000387 and <http://purl.obolibrary.org/obo/oba#affects_quality> some PATO_0000052 and BFO_0000066 some PO_0009058 ## 'plant trait' and 'affects quality' some shape and 'occurs in' some perianth
+
+Class: PO_0009058 ## perianth
+Class: PATO_0000117 ## size
+## {"entity": "PO_0009058", "quality": "PATO_0000117"}
+Class: DEMOTRAIT_0000024
+ Annotations: rdfs:label "perianth size"
+ Annotations: IAO:0000115 "Any size trait that occurs in a perianth."
+ EquivalentTo: TO_0000387 and <http://purl.obolibrary.org/obo/oba#affects_quality> some PATO_0000117 and BFO_0000066 some PO_0009058 ## 'plant trait' and 'affects quality' some size and 'occurs in' some perianth
+
+Class: PO_0009058 ## perianth
+Class: PATO_0000128 ## weight
+## {"entity": "PO_0009058", "quality": "PATO_0000128"}
+Class: DEMOTRAIT_0000025
+ Annotations: rdfs:label "perianth weight"
+ Annotations: IAO:0000115 "Any weight trait that occurs in a perianth."
+ EquivalentTo: TO_0000387 and <http://purl.obolibrary.org/obo/oba#affects_quality> some PATO_0000128 and BFO_0000066 some PO_0009058 ## 'plant trait' and 'affects quality' some weight and 'occurs in' some perianth

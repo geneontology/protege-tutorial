@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+
+    <!-- ./ -->
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/pato-slim.owl" uri="./pato-slim.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/po-slim.owl" uri="./po-slim.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ro-slim.owl" uri="./ro-slim.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/to-slim.owl" uri="./to-slim.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/test1.owl" uri="./test1.owl"/>
+</catalog>

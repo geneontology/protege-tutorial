@@ -1,0 +1,43 @@
+pattern_name: planteome/tutorial/simple_measurable
+classes: 
+  plant trait: TO_0000387
+  quality: PATO_0000001
+
+imports:
+  - http://purl.obolibrary.org/obo/po-slim.owl
+  - http://purl.obolibrary.org/obo/pato-slim.owl
+  - http://purl.obolibrary.org/obo/ro-slim.owl
+  - http://purl.obolibrary.org/obo/to-slim.owl
+
+relations:
+  affects quality: <http://purl.obolibrary.org/obo/oba#affects_quality>
+  occurs in: BFO_0000066
+    
+vars: 
+  entity: "Thing"
+  quality: "quality"
+
+class_iri:
+  text: "%s-%s"
+  vars:
+    - entity
+    - quality
+  
+name:
+  text: "%s %s"
+  vars: 
+    - entity
+    - quality
+    
+def: 
+  text: "Any %s trait that occurs in a %s."
+  vars:
+    - quality
+    - entity
+    
+equivalentTo: 
+  text: "'plant trait' and 'affects quality' some %s and 'occurs in' some %s"
+  vars:
+    - quality
+    - entity
+
