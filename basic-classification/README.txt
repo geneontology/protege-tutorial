@@ -19,7 +19,7 @@ cons of keeping these classes in GO.
 
 PART 1: USING THE DL QUERY TAB
 
-# turn on the reasoner (HermiT)
+# turn on the reasoner (Elk)
 # Go to the DL query tab
 # Find all descendant subclasses of 'ubiquitin ligase complex'
 # Find all descendant subclasses of 'nuclear part'
