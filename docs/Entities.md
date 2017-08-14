@@ -102,9 +102,8 @@ Don’t bother to add textual definitions, synonyms etc at this stage.
 
 After you have become familiar, you can save your efforts or discard them – you won’t need this ontology from here on.
 
-EXERCISE: Basic Subclass Hierarchy
-==================================
+## EXERCISE: Basic Subclass Hierarchy
 
-Go to the directory [basic-subclass][../basic-subclass] in the tutorial folder and open chromosome-parts.owl
+Go to the directory [basic-subclass](../basic-subclass) in the tutorial folder and open chromosome-parts.owl
 
 Follow the instructions in the README.md file
