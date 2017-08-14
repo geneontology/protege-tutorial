@@ -3,9 +3,9 @@ errors in the ontology.
 
 Constructs illustrated:
 
- * Disjoint classes
+ * Disjoint classes [4.3 in owl primer](https://www.w3.org/TR/owl2-primer/#Class_Disjointness)
 
-Instructions:
+## Instructions
 
  * open bad-chromosome.owl
  * Do a query for all parts of a nucleus - how many?
@@ -15,12 +15,12 @@ Instructions:
  * Select HermiT and start it up
  * Find the problem and get an explanation
 
-Part 2 (bonus):
+## Part 2 (bonus)
 
  * have a look at your disjointness axiom. Can it be made more specific or more general? Does this make a difference?
  * Look at the text definition for cytoplasm - can you make it correspond to the definition
 
-Part 3:
+## Part 3
 
  * open go.owl (this can be found in the tutorial directory under "external")
  * add a disjointness axiom between 'plasma membrane part' and 'cytosolic part'
