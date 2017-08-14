@@ -21,7 +21,7 @@ You will also want to save this ontology file to your hard disk. Use the next di
 The Protégé UI
 --------------
 
-After a few second Protégé will launch into the main user interface. The protégé interface follows a basic paradigm of Tabs and Panels. The layout of tabs and panels is configurable by the user. By default protégé launches with 5 main tabs.
+After a few seconds Protégé will launch into the main user interface. The protégé interface follows a basic paradigm of Tabs and Panels. The layout of tabs and panels is configurable by the user. By default protégé launches with 5 main tabs.
 
 ![](./media/image4.png)
 
