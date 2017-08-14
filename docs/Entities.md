@@ -23,7 +23,7 @@ By far the most common panel for working with your ontology is the Class hierarc
 
 ![](./media/image9.png)
 
-There are three button at the top of the class hierarchy view. These allow you to add a subclass, add a sibling or delete a selected class. We will use the add subclass button to add a child class to OWL thing. For now, simply name this class cellular\_component.
+There are three buttons at the top of the class hierarchy view. These allow you to add a subclass, add a sibling or delete a selected class. We will use the 'add subclass' button to add a child class to OWL thing. For now, simply name this class cellular\_component.
 
 ![](./media/image10.png)
 
@@ -51,7 +51,7 @@ Now the correct GO URI appears in the ontology. Obviously you don’t want to ha
 New entities
 ------------
 
-Terms in the ontologies we use have separate names and IDs. The names are annotation values (labels) and the ids are represented using IRIs. The [OBO foundry has a policy on IRI](http://www.obofoundry.org/id-policy.shtml) (or id) generation. You can set an id strategy using the “New Entities” tab under the Protégé preferences.
+Terms in the ontologies we use have separate names and IDs. The names are annotation values (labels) and the IDs are represented using IRIs. The [OBO foundry has a policy on IRI](http://www.obofoundry.org/id-policy.shtml) (or ID) generation. You can set an id strategy using the “New Entities” tab under the Protégé preferences.
 
 Set your new entity preferences as follows:
 
@@ -62,7 +62,7 @@ For ontologies other than GO, change the value of the prefix. Note that all OBO 
 Adding annotations properties
 -----------------------------
 
-You can add annotations (such as labels, descriptions, xrefs etc..) to any OWL entity using Protégé. The panel on the right, named Annotations is where these annotations are added. Use this panel to add a “cellular\_component” label to the class you created previously.
+You can add annotations (such as labels, descriptions, xrefs, etc.) to any OWL entity using Protégé. The panel on the right, named Annotations is where these annotations are added. Use this panel to add a “cellular\_component” label to the class you created previously.
 
 ![](./media/image16.png)
 
@@ -75,7 +75,7 @@ Note that for practical purposes you will start from an existing OWL file that w
 Setting label rendering
 -----------------------
 
-You can change how Protégé renders entities. It is common to want to view entities by the their label, rather than identifiers. You can tell protégé to render on any annotation property you choose. Lets render all entities by their class label.
+You can change how Protégé renders entities. It is common to want to view entities by the their label, rather than identifiers. You can tell Protégé to render on any annotation property you choose. Lets render all entities by their class label.
 
 ![](./media/image18.png)
 
@@ -90,13 +90,13 @@ The cellular\_component class will now render in the hierarchy view using the va
 Creating the class hierarchy
 ----------------------------
 
-We will now create a simple class hierarchy. In protégé ‘class hierarchy’ typically refers to a sub/superclass hierarchy (also known as an is\_a hierarchy in OBO-Edit). We will return to relations such as ‘part of’ later on in this tutorial. For now, we will take advantage of the fact that the GO cell component ontology allows us to bypass this for now by means of classes such as ‘cell part’ and ‘nuclear part’.
+We will now create a simple class hierarchy. In Protégé ‘class hierarchy’ typically refers to a sub/superclass hierarchy (also known as an is\_a hierarchy in OBO-Edit). We will return to relations such as ‘part of’ later on in this tutorial. For now, we will take advantage of the fact that the GO cell component ontology allows us to bypass this for now by means of classes such as ‘cell part’ and ‘nuclear part’.
 
 Using the class hierarchy view create a small section of the cellular component branch of the GO as shown in the following screenshot. Play around with add subclass, add sibling and the drag and drop functionality.
 
 ![](./media/image21.png)
 
-Don’t bother to add textual definitions, synonyms etc at this stage.
+Don’t bother to add textual definitions, synonyms, etc. at this stage.
 
 After you have become familiar, you can save your efforts or discard them – you won’t need this ontology from here on.
 
