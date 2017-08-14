@@ -2,7 +2,11 @@
 Starting Protégé
 ================
 
-When you start Protégé a welcome dialog appears where you can choose to 1) Create a new OWL ontology, 2) Open an existing OWL ontology, 3) Open an ontology from a particular URI (e.g http://purl.obolibrary.org/obo/go.owl).
+When you start Protégé a welcome dialog appears where you can choose to
+
+ 1. Create a new OWL ontology
+ 2. Open an existing OWL ontology
+ 3. Open an ontology from a particular URI (e.g <http://purl.obolibrary.org/obo/go.owl>).
 
 ![](./media/image1.png)
 
