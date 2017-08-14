@@ -19,7 +19,7 @@ Adding new classes (basic):
     * Add a text definition
        * Add 2 def dbxrefs to the text definition
     * Add a related synonym
-    * Add an exref
+    * Add an dbxref
 
 Synonym properties:
 
