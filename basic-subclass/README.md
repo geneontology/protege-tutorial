@@ -24,10 +24,10 @@ Adding new classes (basic):
 Synonym properties:
 
  * Add the term "site of double-strand break" to the ontology under "chromosomal part"
-    * follow the same procedure as fore the example above
-    * add a synonym dbxref. E.g. synonym: "site of DSB" EXACT [PMID:21035408]
+    * Follow the same procedure as fore the example above
+    * Add a synonym dbxref. E.g. synonym: "site of DSB" EXACT [PMID:21035408]
 
 Moving around classes:
 
  * Add the term "intracellular non-membrane-bounded organelle"
- * this should go *between* chromosome and non-membrane organelle and intracellular organelle part
+ * This should go *between* chromosome and non-membrane organelle and intracellular organelle part
