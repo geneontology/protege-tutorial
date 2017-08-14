@@ -5,13 +5,17 @@ Automatic classification
 
 Go to the [basic-classification](https://github.com/geneontology/protege-tutorial/tree/master/basic-classification) folder and follow the instructions in the README.txt
 
-## EXERCISE: Classification using Unions
+## EXERCISE: Classification using Unions (Optional)
 
 Optional additional exercise if time permits:
 
 Go to [taxon-union](taxon-union) folder
 
 This introduces classification using “or” and “not”
+
+### Futher reading
+
+[owl primer - advanced class relationships](https://www.w3.org/TR/owl2-primer/#Advanced_Class_Relationships])
 
 ### Do a DL query for cell cycle processes that occur in a nucleus – note there is only one result:
 

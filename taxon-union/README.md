@@ -1,6 +1,6 @@
 This example extends the previous one introducing "or" (UnionOf) and "not" (complementOf)
 
-Instructions:
+## Instructions
 
  * open taxslim-with-union.owl
  * briefly check the asserted hierarchy if you like - this is a subset of the NCBI taxonomy
@@ -31,4 +31,4 @@ Instructions:
     * Reptilia, as traditionally defined: (amniote minus aves and mammals)
     * Land mammal
  * What happens when you classify?
- * see HINTS.txt if you get stuck
+ * see [HINTS.txt](HINTS.txt) if you get stuck
