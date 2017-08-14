@@ -31,15 +31,13 @@ This behavior is undesirable – we want ‘spindle pole body duplication in nuc
 
 Add a property chain specifying a rule:
 
-> If p occurs\_in c
->
-> And c part\_of d
->
-> Then p occurs\_in d
+    If p occurs_in c
+    And c part_of d
+    Then p occurs_in d
 
-as follows. Find ‘occurs in’ in the Object Properties tab, and click “+” next to “Property Chains”. We write the chain as
+as follows. Find `occurs in` in the Object Properties tab, and click “+” next to “Property Chains”. We write the chain as
 
-occurs\_in o part\_of -&gt; occurs\_in
+`occurs_in o part_of -> occurs_in`
 
 ![](./media/image60.emf)
 

@@ -69,7 +69,7 @@ Existential tree plugin
 
 The class hierarchy view in protégé shows subclass/superclass[2] relationships between classes. The default class hierarchy view is restricted to showing strict is-a, or sub/super class relationships. The existential tree is an alternate class hierarchy view that organise classes into hierarchies based on existential restriction. For example, viewing a partonomy along the ‘part of’ existential restriction.
 
-The existential tree view can be found under Window -&gt; Views -&gt; Existential Tree
+The existential tree view can be found under Window -> Views -> Existential Tree
 
 ![](./media/image45.png)
 
@@ -77,7 +77,7 @@ Drop the view over the class description view.
 
 ![](./media/image46.png)
 
-Select the ‘part of’ property to render your partonomy in the existential tree panel.
+Select the `part of` property to render your partonomy in the existential tree panel.
 
 ## EXERCISE: Basic Restrictions
 
