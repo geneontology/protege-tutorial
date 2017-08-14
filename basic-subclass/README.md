@@ -14,7 +14,7 @@ Instructions:
 Adding new classes (basic):
 
  * Add the term "replication fork" to the ontology under "chromosomal part"
-    * don't worry about the ID
+    * Don't worry about the ID
     * See the file "HINTS.obo" or the existing GO for the exact values
     * Add a text definition
        * Add 2 def dbxrefs to the text definition
