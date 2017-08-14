@@ -51,9 +51,7 @@ Now the correct GO URI appears in the ontology. Obviously you don’t want to ha
 New entities
 ------------
 
-Terms in the ontologies we use have separate names and IDs. The names are annotation values (labels) and the ids are represented using IRIs. The OBO foundry has a policy on IRI (or id) generation. You can set an id strategy using the “New Entities” tab under the Protégé preferences.
-
-[*http://www.obofoundry.org/id-policy.shtml*](http://www.obofoundry.org/id-policy.shtml)
+Terms in the ontologies we use have separate names and IDs. The names are annotation values (labels) and the ids are represented using IRIs. The [OBO foundry has a policy on IRI](http://www.obofoundry.org/id-policy.shtml) (or id) generation. You can set an id strategy using the “New Entities” tab under the Protégé preferences.
 
 Set your new entity preferences as follows:
 
