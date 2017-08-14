@@ -44,7 +44,7 @@ Suggested Order:
 
     Task: find problems in ontology
     Constructs: DisjointWith
-    Uses reasoner: Hermit
+    Uses reasoner: Elk
     Ontology: cell component (subset)
 
  * [basic-restriction](basic-restriction)
@@ -58,14 +58,14 @@ Suggested Order:
 
     Task: perform queries using class expressions
     Constructs: and, some
-    Uses reasoner: Hermit
+    Uses reasoner: Elk
     Ontology: cell component (subset)
 
  * [basic-classification](basic-classification)
 
     Task: use reasoner to build hierarchy
     Constructs: SubClass, "some", Equivalence, "and" (intersection)
-    Uses reasoner: Hermit
+    Uses reasoner: Elk
     Ontology: cell component (subset)
 
  * [taxon-union](taxon-union)
