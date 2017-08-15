@@ -17,8 +17,6 @@ You can type any valid OWL class expression into the DL query tab. For example, 
 
 ![](./media/image49.emf)
 
- 
--
 
 The OWL keyword “and” can be used to make a class expression that is the intersection of two class expressions. For example, to find the classes in the red area below, we want to find subclasses of the intersection of the class ‘organelle’ and the class ‘endoplasmic reticulum part’
 
