@@ -58,6 +58,6 @@ NOTE: this may be broken in P4.1?
 
 ![](./media/image63.png)
 
-## EXERCISE: regulation-classification
+## EXERCISE: transport & property chains
 
-Go to the [regulation-classification](https://github.com/geneontology/protege-tutorial/tree/master/regulation-classification/) folder and follow the instructions in the README
+Go to the [transport property chain exercise](https://github.com/geneontology/protege-tutorial/tree/master/transport_property_chain_excercise) folder and follow the instructions in the README
