@@ -13,8 +13,8 @@ that are part of a hand.
 
 Instructions:
 
-# open er-sec-complex.owl
-# navigate to the class "protein complex" using the search box
+# Open er-sec-complex.owl
+# Navigate to the class "protein complex" using the search box
 # Add a class 'endoplasmic reticulum Sec complex' as a subclass of "protein complex"
 # Say that every ER-Sec-complex is part of a rough ER membrane
 # Say that it has a Sec61 translocon complex as part
@@ -22,7 +22,7 @@ Instructions:
 
 Navigating over the resulting ontology:
 
-# navigate to "rough ER membrane"
+# Navigate to "rough ER membrane"
 # Find the parts of the rough ER membrane
 ## At this point the course instructor will show some of the tools for navigating around non-subclass relationships
 
