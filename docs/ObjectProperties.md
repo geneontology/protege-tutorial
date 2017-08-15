@@ -1,7 +1,7 @@
 Object properties
 =================
 
-At this point load: .owl form the tutorial directory ‘basic-restriction’
+At this point load: chromosome-parts-interim.owl form the tutorial directory ‘basic-restriction’
 
 We will now create an object property and use this to add some restriction onto classes. In OWL properties are used to assert relationships between individuals (or instance). Properties in OWL can have characteristics such as being transitive or symmetric. We can assert additional information about properties such their domain and range, along with defining inverse properties.
 
