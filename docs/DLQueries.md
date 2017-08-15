@@ -3,7 +3,7 @@ DL query tab
 
 The DL query tab shown below provides an interface for querying and searching an ontology. The ontology must be classified by a reasoner before it can be queried in the DL query tab.
 
-Go to the “basic-dl-query” folder and open “cc.owl”. Navigate to the DL Query tab.
+Go to the [“basic-dl-query”](https://github.com/geneontology/protege-tutorial/tree/master/basic-dl-query) folder and open “cc.owl”. Navigate to the DL Query tab.
 
 ![](./media/image47.png)
 
