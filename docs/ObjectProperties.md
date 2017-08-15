@@ -81,7 +81,7 @@ Select the `part of` property to render your partonomy in the existential tree p
 
 ## EXERCISE: Basic Restrictions
 
-Stay in the “basic-restriction” folder in the tutorial directory and follow the instructions in the README.txt
+Stay in the [“basic-restriction”](https://github.com/geneontology/protege-tutorial/tree/master/basic-restriction) folder in the tutorial directory and follow the instructions in the README.txt
 
 The instructors may demonstrate some of the additional options for navigating the ontology at this point:
 
