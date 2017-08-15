@@ -20,12 +20,12 @@ This introduces classification using “or” and “not”
 ### Do a DL query for cell cycle processes that occur in a nucleus – note there is only one result:
 
 
-![](./media/image58.emf)
+![](./media/image58.png)
 ========================
 
 Note that in this ontology, there is no axiom that allows the reasoner to know that something happening in a *part of* the nucleus is happening in the nucleus. Try a different query – this time for cell cycle processes in some part of the nucleus:
 
-![](./media/image59.emf)
+![](./media/image59.png)
 
 This behavior is undesirable – we want ‘spindle pole body duplication in nuclear envelope’ to be returned by the first query.
 
@@ -39,24 +39,24 @@ as follows. Find `occurs in` in the Object Properties tab, and click “+” nex
 
 `occurs_in o part_of -> occurs_in`
 
-![](./media/image60.emf)
+![](./media/image60.png)
 
 Synchronize the reasoner and then run the DL query again:
 
-![](./media/image61.emf)
+![](./media/image61.png)
 
 Note this gives the desired results.
 
 One useful feature of the DL query tab is the ability to make a *defined class*[3] out of a query class expression. Let’s call this “nuclear cell cycle process”:
 
-![](./media/image62.emf)
+![](./media/image62.png)
 ========================
 
 You should now see this class automatically classified, with the two spindle pole processes underneath it.
 
 NOTE: this may be broken in P4.1?
 
-![](./media/image63.emf)
+![](./media/image63.png)
 
 ## EXERCISE: regulation-classification
 
