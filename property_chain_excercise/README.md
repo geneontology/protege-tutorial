@@ -18,6 +18,6 @@ Exercise:
 Discussion:
 
   How might we simplify transport patterns?
-    * Could we infer in import?
-    * Could we infer intracellular transport?
+    * Could we infer import rather than using a specific relation?
+    * Could we infer intracellular transport rather than asserting it as a genus?
 
