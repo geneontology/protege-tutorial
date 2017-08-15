@@ -7,6 +7,8 @@ At the top of our class hierarchy we have cell, cell part, organelle and organel
 
 We want to assert that organelle and ‘organelle part’ are disjoint. To do this first select the cell class. In the class description view select the + button next to disjoints. You can use CTRL to select multiple classes.
 
+![](./media/image29a.png)
+
 ![](./media/image29.png)
 
 Note that the directionality is irrelevant.
