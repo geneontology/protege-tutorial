@@ -3,9 +3,9 @@ We need a new term for [copper ion import into the mitochondrial matrix](https:/
 
 Transport patterns:
 
-Use GO:'intracellular transport' as the genus term
-To record the cargo of a transport process, use the 'imports' relation
-To record the start and end points of a transport process use: 'has target start location' and 'has target end location'.
+* Use GO:'intracellular transport' as the genus term
+* To record the cargo of a transport process, use the 'imports' relation
+* To record the start and end points of a transport process use: 'has target start location' and 'has target end location'.
 
 Exercise: 
 
@@ -17,7 +17,8 @@ Exercise:
   
 Discussion:
 
-  How might we simplify transport patterns?
-    * Could we infer import rather than using a specific relation?
-    * Could we infer intracellular transport rather than asserting it as a genus?
+How might we simplify transport patterns?
+
+  * Could we infer import rather than using a specific relation?
+  * Could we infer intracellular transport rather than asserting it as a genus?
 
