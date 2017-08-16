@@ -12,7 +12,7 @@ Exercise:
   * make a git branch of go-ontology
   * open go-edit.obo
   * Add a general class for 'ion import into mitochondrion' with a Equivalent Class (necessary and sufficient) definition.
-  * Add class for copper ion import with a Equivalent Class (necessary and sufficient) definition.
+  * Add class for 'copper ion import into mitochondrial matrix' with a Equivalent Class (necessary and sufficient) definition.
   * Run the reasoner.  Do you understand the inferred classifications?
   
 Discussion:
